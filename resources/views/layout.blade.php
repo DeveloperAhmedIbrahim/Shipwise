@@ -101,7 +101,7 @@
 									</span>										
 								</a>
 								<ul class="dropdown-menu shadow">
-									<li><a class="dropdown-item" href="{{ route('/') }}" aria-label="single-pages">
+									<li><a class="dropdown-item" href="{{ route('home') }}" aria-label="single-pages">
 											<span>Home 1</span>												
 										</a>
 									</li>										

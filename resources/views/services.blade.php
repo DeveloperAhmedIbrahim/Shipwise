@@ -8,7 +8,7 @@
             <h3 class="banner-heading mb-0">Our Services</h3>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb mb-0">
-                    <li class="breadcrumb-item"><a href="{{ route('/') }}" class="text-decoration-none link-hover-animation-1">Home</a></li>
+                    <li class="breadcrumb-item"><a href="{{ route('home') }}" class="text-decoration-none link-hover-animation-1">Home</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Services</li>
                 </ol>
             </nav>
