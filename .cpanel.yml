@@ -1,0 +1,4 @@
+deployment:
+    task:
+    - export DEPLOYPATH=/home2/techrev2/shipwise.techrevivals.net
+    - /bin/cp * $DEPLOYPATH
