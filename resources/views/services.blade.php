@@ -42,7 +42,6 @@
 </section>
 <!--About Section ======================-->
 
-
 <!--Service Section ======================-->
 <section class="section-service service-3 pb-60 pb-lg-100 pb-xxl-120 hover-element">
     <div class="bg-custom-light py-60 py-lg-100 py-xxl-120">
@@ -54,7 +53,7 @@
                 </div>
                 <!-- col-md-5 -->
                 <div class="col-lg-6 col-xl-5">
-                    <p class="mb-0 text-lg-end">Whether you're a small business or a multinational corporation, logistip is your trusted partner for all your transportation and logistics needs.</p>								
+                    <p class="mb-0 text-lg-end">Whether you're a small business or a multinational corporation, SHIPWISE is your trusted partner for all your transportation and logistics needs.</p>								
                 </div>
                 <!-- col-md-3 -->
             </div>			
@@ -65,8 +64,8 @@
                         <span class="freight-icon">
                             <svg width="29" height="28"><use xlink:href="#air-freight-icon"></use></svg> 
                         </span>
-                        <h5 class="mb-0 service-3-title"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Air Freight Services</a></h5>
-                        <p class="mb-0 service-3-text">Our global network of airline partners ensure fast reliable delivery of your cargo to destinations worldwide.</p>
+                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Full Truckload (FTL) & Less Than Truckload (LTL)</a></h5>
+                        <p class="mb-0  service-3-text">Efficient shipping for large and small loads, maximizing space and minimizing costs.</p>
                     </div>
                 </div>
                 <!-- col -->
@@ -75,18 +74,17 @@
                         <span class="freight-icon">
                             <svg width="29" height="28"><use xlink:href="#road-freight-icon"></use></svg> 
                         </span>
-                        <h5 class="mb-0 service-3-title"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Road Freight Services</a></h5>
-                        <p class="mb-0 service-3-text">Our global network of airline partners ensure fast reliable delivery of your cargo to destinations worldwide.</p>
+                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Dry Van & Refrigerated (Temp-Controlled) Freight </a></h5>
+                        <p class="mb-0  service-3-text">Secure transport for all goods, from everyday items to temperature-sensitive products.</p>
                     </div>
                 </div>
-                <!-- col -->
                 <div class="col-md-6 col-lg-4">
                     <div class="service-3-wrapper hover-item shadow">
                         <span class="freight-icon">
-                            <svg width="29" height="28"><use xlink:href="#ocean-freight-icon"></use></svg> 
+                            <svg width="28" height="28"><use xlink:href="#ware-housing-icon"></use></svg> 
                         </span>
-                        <h5 class="mb-0 service-3-title"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Ocean Freight Services</a></h5>
-                        <p class="mb-0 service-3-text">Our global network of airline partners ensure fast reliable delivery of your cargo to destinations worldwide.</p>
+                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Dedicated Freight Management Programs </a></h5>
+                        <p class="mb-0  service-3-text">Customized logistics solutions, providing dedicated resources for your unique shipping needs.</p>
                     </div>
                 </div>
                 <!-- col -->
@@ -95,8 +93,8 @@
                         <span class="freight-icon">
                             <svg width="26" height="28"><use xlink:href="#rail-freight-icon"></use></svg> 
                         </span>
-                        <h5 class="mb-0 service-3-title"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Rail Freight Services</a></h5>
-                        <p class="mb-0 service-3-text">Our global network of airline partners ensure fast reliable delivery of your cargo to destinations worldwide.</p>
+                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Route Optimization & Load Planning</a></h5>
+                        <p class="mb-0  service-3-text">Smart planning for efficient routes and load configurations, reducing costs and transit times.</p>
                     </div>
                 </div>
                 <!-- col -->
@@ -105,8 +103,8 @@
                         <span class="freight-icon">
                             <svg width="32" height="28"><use xlink:href="#supply-chain-icon"></use></svg> 
                         </span>
-                        <h5 class="mb-0 service-3-title"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Supply chain management</a></h5>
-                        <p class="mb-0 service-3-text">Our global network of airline partners ensure fast reliable delivery of your cargo to destinations worldwide.</p>
+                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Freight Consolidation & Distribution</a></h5>
+                        <p class="mb-0  service-3-text">Combining shipments for cost-effective transport, then distributing to final destinations efficiently.</p>
                     </div>
                 </div>
                 <!-- col -->
@@ -115,11 +113,20 @@
                         <span class="freight-icon">
                             <svg width="28" height="28"><use xlink:href="#ware-housing-icon"></use></svg> 
                         </span>
-                        <h5 class="mb-0 service-3-title"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Warehousing Services</a></h5>
-                        <p class="mb-0 service-3-text">Our global network of airline partners ensure fast reliable delivery of your cargo to destinations worldwide.</p>
+                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Cross-Border Logistics (Canada – U.S.) </a></h5>
+                        <p class="mb-0  service-3-text">Seamless transport across borders, handling customs and regulations for smooth delivery.</p>
                     </div>
                 </div>
                 <!-- col -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-3-wrapper hover-item shadow">
+                        <span class="freight-icon">
+                            <svg width="29" height="28"><use xlink:href="#ocean-freight-icon"></use></svg> 
+                        </span>
+                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Expedited & Time-Critical Shipments</a></h5>
+                        <p class="mb-0  service-3-text">Fast, reliable delivery for urgent shipments, ensuring deadlines are met every time.</p>
+                    </div>
+                </div>
             </div>
             <!-- row -->
         </div>

@@ -8,12 +8,12 @@
         <div class="hero-wrapper parallax position-relative text-bg-dark" data-bs-theme="dark">
             <div class="container">
                 <div class="hero-inner d-flex flex-column gap-30 text-center text-md-start">
-                    <h1 class="mb-0 hero-heading-text">Digital & Trusted Transport Logistic Company</h1>
-                    <p class="mb-10 mb-lg-30 lead hero-text">With our commitment excellence dedication customer satisfaction, we're here streamline supply chain and drive your business.</p>
+                    <h1 class="mb-0 hero-heading-text">Welcome to Shipwise Freight Inc.</h1>
+                    <p class="mb-10 mb-lg-30 lead hero-text">Where Precision Meets Performance in Freight Brokerage.</p>
                     <div class="hero-bottom-components d-flex flex-column flex-lg-row align-items-lg-center gap-30">
                         <div class="mb-5 mb-md-0">
-                            <a href="#" class="btn btn-primary d-inline-flex align-items-center gap-3 text-uppercase">
-                                <span>Rate & ship</span>
+                            <a href="{{ route('about') }}" class="btn btn-primary d-inline-flex align-items-center gap-3 text-uppercase">
+                                <span>About Us</span>
                                 <span class="arrow-icon-2">											
                                     <svg width="11" height="12"><use xlink:href="#arrow-icon-2"></use></svg> 
                                 </span>
@@ -90,9 +90,16 @@
                 <div class="mb-30 mb-xxl-40">
                     <h6 class="mb-3 text-primary">About Us</h6>
                     <h3 class="mb-20">A Legacy of <span class="text-primary">Excellence</span> in Transportation</h3>
-                    <p class="mb-4">At Logistip, we are more than just a transportation company - we're your trusted partner in navigating the complexities of logistics and supply chain management.</p>
+                    <p class="mb-4">
+                        With an elite network of pre-qualified carriers, real-time technology integration, and a 
+                        relentless focus on execution, Shipwise is more than a broker — we are your strategic logistics 
+                        partner committed to delivering excellence from pickup to final mile.
+                    </p>
                     <p class="mb-0 fw-medium body-color-style-2 custom-border-left pe-xxl-30">
-                        25 years of experience in the industry, we have built a reputation for excellence, reliability, customer service.
+                        Since 2019, Shipwise Freight Inc. has set the standard in freight brokerage, becoming the go-to 
+                        logistics partner for businesses across North America. We don’t just move freight — we 
+                        engineer smarter, faster, and more dependable transportation solutions that empower your 
+                        supply chain.
                     </p>
                 </div>
                 
@@ -104,7 +111,7 @@
                         <span class="contact-icon">											
                             <svg width="24" height="24"><use xlink:href="#phone-icon"></use></svg> 
                         </span>					
-                        <p class="mb-0 fs-5 fw-bold"><a href="tel:+07550321425" class="text-decoration-none link-hover-animation-1">+075 5032 1425</a></p>									
+                        <p class="mb-0 fs-5 fw-bold"><a href="tel:+07550321425" class="text-decoration-none link-hover-animation-1">+905-283-3652</a></p>									
                     </div>
                 </div>
                 <div class="d-flex flex-wrap gap-3 gap-xl-10">
@@ -145,24 +152,46 @@
                 <div class="col-lg-7 col-xxl-6 wow fadeIn" data-wow-delay="300ms" data-wow-duration="1.2s">
                     <div class="mb-30 mb-xxl-40">
                         <h6 class="subtitle mb-10 text-primary">Why Choose Us</h6>
-                        <h3 class="mb-3 title">Empowering Your <span class="text-primary">Business</span> Potential</h3>
-                        <p class="mb-0 descriptions-width">We understand that selecting the right logistics partner is crucial for the success of your business.</p>
+                        <h3 class="mb-3 title">Why Leading Businesses <span class="text-primary">Trust</span> Shipwise</h3>
                     </div>								
 
                     <div class="d-flex flex-column flex-sm-row justify-content-between gap-30">
                         <div class="d-flex flex-column gap-10">
-                            <span class="globe-icon mb-10 text-primary">											
-                                <svg width="30" height="30"><use xlink:href="#globe-icon"></use></svg> 
-                            </span>
-                            <h6 class="mb-0 fw-medium">Global Network</h6>
-                            <p class="mb-0">With our global network, we can most remote corners of the globe.</p>
+                            <h6 class="mb-0 fw-medium">Unmatched Reliability</h6>
+                            <p class="mb-0">
+                                Time is money, and we don’t waste either. Operating 24/7, 365 days a year, we ensure your 
+                                shipments stay on the move — securely, punctually, and professionally — regardless of 
+                                complexity or scale.
+                            </p>
                         </div>
+                    </div>
+                    <div class="d-flex flex-column flex-sm-row justify-content-between gap-30 mt-3">
                         <div class="d-flex flex-column gap-10">
-                            <span class="clock-icon mb-10 text-primary">											
-                                <svg width="30" height="30"><use xlink:href="#clock-icon"></use></svg> 
-                            </span>
-                            <h6 class="mb-0 fw-medium">24/7 Hours Support</h6>
-                            <p class="mb-0">we believe that exceptional customer support is the cornerstone.</p>
+                            <h6 class="mb-0 fw-medium">Customized Logistics That Fit Like a Glove</h6>
+                            <p class="mb-0">
+                                Your freight isn’t generic — and neither are our solutions. From full truckloads to LTL, 
+                                temperature-controlled to high-value expedited freight, we tailor every move to your 
+                                operational and financial goals.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-sm-row justify-content-between gap-30 mt-3">
+                        <div class="d-flex flex-column gap-10">
+                            <h6 class="mb-0 fw-medium">Technology with a Purpose</h6>
+                            <p class="mb-0">
+                                We use advanced logistics platforms to optimize routes, reduce costs, and provide complete 
+                                visibility at every step. Our clients get more than updates — they get control. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-sm-row justify-content-between gap-30 mt-3">
+                        <div class="d-flex flex-column gap-10">
+                            <h6 class="mb-0 fw-medium">Quality is Our Culture</h6>
+                            <p class="mb-0">
+                                We believe in doing fewer things — flawlessly. Every client receives focused attention, proactive 
+                                service, and the peace of mind that comes from partnering with a team that gets it right the 
+                                first time. 
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -193,106 +222,147 @@
 <section class="section-service service-1 pb-60 pb-lg-100 pb-xxl-120">
     <div class="container">
         <div class="row gx-30 gy-60">
-            <div class="col-lg-5 col-xl-6">
+            <div class="col-md-12">
                 <div class="mb-30 mb-xxl-40">
                     <h6 class="subtitle mb-10 text-primary">Our Services</h6>
-                    <h3 class="mb-3 title">Your <span class="text-primary">Gateway</span> to Seamless Transportation</h3>
-                    <p class="mb-0 descriptions-width">Whether you're a small business or a multinational corporation, logistip is your trusted partner for all your transportation and logistics needs.</p>
+                    <h3 class="mb-3 title">Our Core <span class="text-primary">Capabilities</span></h3>
+                    <p class="mb-0 descriptions-width">Whether you're a small business or a multinational corporation, SHIPWISE is your trusted partner for all your transportation and logistics needs.</p>
                 </div>							
-
-                <div class="video-image-wrapper position-relative border-10 wow fadeInUp">
-                    <img src="{{ asset('assets/images/video-image.jpg') }}" class="img-fluid" alt="video-image">
-                    <a href="https://www.youtube.com/watch?v=lfDZJqSrIuk" aria-label="video-popus-icon" class="video-popup video-popup-style-1">
-                        <span class="video-icon">						
-                            <svg width="24" height="30"><use xlink:href="#video-icon"></use></svg> 
-                        </span>	
-                    </a>
-                </div>		
-                <!-- video-image-wrapper -->
-            </div>
-            <!-- col-6 -->
-
-            <div class="col-lg-7 col-xl-6">
-                <div class="d-flex flex-column gap-30">
-                    <div class="card card-style-1 wow fadeIn" data-wow-delay="100ms" data-wow-duration="1.2s">
-                        <div class="row gx-30 align-items-center">
-                            <div class="col-lg-6 col-xxl-5">
-                            <div class="card-image-wrapper border-10">
-                                <img src="{{ asset('assets/images/service-image-1.jpg') }}" class="img-fluid card-image" alt="service-image-1">
-                            </div>
-                            <!-- card-image-wrapper -->
-                            </div>
-                            <div class="col-lg-6 col-xxl-7">
-                            <div class="card-body">
-                                <h4 class="card-title lead fw-semibold mb-10"><a href="{{ route('services') }}" class="text-decoration-none stretched-link link-hover-animation-1">Air Freight Services</a></h4>												
-                                <p class="card-text mb-10 mb-lg-20">Our extensive network of shipping line and experienced team ensures smooth sailing for your cargo.</p>
-                                <div>
-                                    <a href="{{ route('services') }}" class="btn btn-link text-decoration-none link-hover-animation-1 gap-10">Read More
-                                        <span class="btn-link-icon">											
-                                            <svg width="11" height="12"><use xlink:href="#arrow-icon-2"></use></svg> 
-                                        </span>
-                                    </a>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6 col-xs-6">
+                        <div class="card card-style-1 wow fadeIn" data-wow-delay="100ms" data-wow-duration="1.2s">
+                            <div class="row gx-30 align-items-center">
+                                <div class="col-lg-12 col-xxl-5">
+                                <div class="card-image-wrapper border-10">
+                                    <img src="{{ asset('assets/images/service-image-1.jpg') }}" class="img-fluid card-image" alt="service-image-1">
+                                </div>
+                                <!-- card-image-wrapper -->
+                                </div>
+                                <div class="col-lg-12 col-xxl-7">
+                                <div class="card-body">
+                                    <h3 class="card-title lead fw-semibold mb-10"><a href="{{ route('services') }}" class="text-decoration-none stretched-link link-hover-animation-1">Full Truckload (FTL) & Less Than Truckload (LTL)</a></h4>												
+                                </div>
+                                <!-- card-body -->
                                 </div>
                             </div>
-                            <!-- card-body -->
-                            </div>
                         </div>
+                        <!-- card-style-3 -->
                     </div>
-                    <!-- card-style-3 -->
-
-                    <div class="card card-style-1 wow fadeIn" data-wow-delay="300ms" data-wow-duration="1.2s">
-                        <div class="row gx-30 align-items-center">
-                            <div class="col-lg-6 col-xxl-5">
-                            <div class="card-image-wrapper border-10">
-                                <img src="{{ asset('assets/images/service-image-2.jpg') }}" class="img-fluid card-image" alt="service-image-2">
-                            </div>
-                            <!-- card-image-wrapper -->
-                            </div>
-                            <div class="col-lg-6 col-xxl-7">
-                            <div class="card-body">
-                                <h4 class="card-title lead fw-semibold mb-10"><a href="{{ route('services') }}" class="text-decoration-none stretched-link link-hover-animation-1">Road Freight Services</a></h4>													
-                                <p class="card-text mb-10 mb-lg-20">Our extensive network of shipping line and experienced team ensures smooth sailing for your cargo.</p>
-                                <div>
-                                    <a href="{{ route('services') }}" class="btn btn-link text-decoration-none link-hover-animation-1 gap-10">Read More
-                                        <span class="btn-link-icon">											
-                                            <svg width="11" height="12"><use xlink:href="#arrow-icon-2"></use></svg> 
-                                        </span>
-                                    </a>
+                    <div class="col-lg-6 col-sm-6 col-xs-6">
+                        <div class="card card-style-1 wow fadeIn" data-wow-delay="300ms" data-wow-duration="1.2s">
+                            <div class="row gx-30 align-items-center">
+                                <div class="col-lg-12 col-xxl-5">
+                                <div class="card-image-wrapper border-10">
+                                    <img src="{{ asset('assets/images/service-image-4.jpg') }}" class="img-fluid card-image" alt="service-image-2">
+                                </div>
+                                <!-- card-image-wrapper -->
+                                </div>
+                                <div class="col-lg-12 col-xxl-7">
+                                <div class="card-body">
+                                    <h4 class="card-title lead fw-semibold mb-10"><a href="{{ route('services') }}" class="text-decoration-none stretched-link link-hover-animation-1">Dry Van & Refrigerated (Temp-Controlled) Freight</a></h4>													
+                                </div>
+                                <!-- card-body -->
                                 </div>
                             </div>
-                            <!-- card-body -->
-                            </div>
                         </div>
+                        <!-- card-style-3 -->
                     </div>
-                    <!-- card-style-3 -->
-
-                    <div class="card card-style-1 wow fadeIn" data-wow-delay="500ms" data-wow-duration="1.2s">
-                        <div class="row gx-30 align-items-center">
-                            <div class="col-lg-6 col-xxl-5">
-                            <div class="card-image-wrapper border-10">
-                                <img src="{{ asset('assets/images/service-image-3.jpg') }}" class="img-fluid card-image" alt="service-image-3">
-                            </div>
-                            <!-- card-image-wrapper -->
-                            </div>
-                            <div class="col-lg-6 col-xxl-7">
-                            <div class="card-body">
-                                <h4 class="card-title lead fw-semibold mb-10"><a href="{{ route('services') }}" class="text-decoration-none stretched-link link-hover-animation-1">Ocean Freight Services</a></h4>													
-                                <p class="card-text mb-10 mb-lg-20">Our extensive network of shipping line and experienced team ensures smooth sailing for your cargo.</p>
-                                <div>
-                                    <a href="{{ route('services') }}" class="btn btn-link text-decoration-none link-hover-animation-1 gap-10">Read More
-                                        <span class="btn-link-icon">											
-                                            <svg width="11" height="12"><use xlink:href="#arrow-icon-2"></use></svg> 
-                                        </span>
-                                    </a>
+                    <div class="col-lg-4 col-sm-6 col-xs-6">
+                        <div class="card card-style-1 wow fadeIn" data-wow-delay="300ms" data-wow-duration="1.2s">
+                            <div class="row gx-30 align-items-center">
+                                <div class="col-lg-12 col-xxl-5">
+                                <div class="card-image-wrapper border-10">
+                                    <img src="{{ asset('assets/images/service-image-7.jpg') }}" class="img-fluid card-image" alt="service-image-2">
+                                </div>
+                                <!-- card-image-wrapper -->
+                                </div>
+                                <div class="col-lg-12 col-xxl-7">
+                                <div class="card-body">
+                                    <h4 class="card-title lead fw-semibold mb-10"><a href="{{ route('services') }}" class="text-decoration-none stretched-link link-hover-animation-1">Expedited & Time-Critical Shipments</a></h4>													
+                                </div>
+                                <!-- card-body -->
                                 </div>
                             </div>
-                            <!-- card-body -->
+                        </div>
+                        <!-- card-style-3 -->
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-xs-6">
+                        <div class="card card-style-1 wow fadeIn" data-wow-delay="300ms" data-wow-duration="1.2s">
+                            <div class="row gx-30 align-items-center">
+                                <div class="col-lg-12 col-xxl-5">
+                                <div class="card-image-wrapper border-10">
+                                    <img src="{{ asset('assets/images/service-image-3.jpg') }}" class="img-fluid card-image" alt="service-image-2">
+                                </div>
+                                <!-- card-image-wrapper -->
+                                </div>
+                                <div class="col-lg-12 col-xxl-7">
+                                <div class="card-body">
+                                    <h4 class="card-title lead fw-semibold mb-10"><a href="{{ route('services') }}" class="text-decoration-none stretched-link link-hover-animation-1">Route Optimization & Load Planning</a></h4>													
+                                </div>
+                                <!-- card-body -->
+                                </div>
                             </div>
                         </div>
+                        <!-- card-style-3 -->
                     </div>
-                    <!-- card-style-3 -->									
+                    <div class="col-lg-4 col-sm-6 col-xs-6">
+                        <div class="card card-style-1 wow fadeIn" data-wow-delay="300ms" data-wow-duration="1.2s">
+                            <div class="row gx-30 align-items-center">
+                                <div class="col-lg-12 col-xxl-5">
+                                <div class="card-image-wrapper border-10">
+                                    <img src="{{ asset('assets/images/service-image-5.jpg') }}" class="img-fluid card-image" alt="service-image-2">
+                                </div>
+                                <!-- card-image-wrapper -->
+                                </div>
+                                <div class="col-lg-12 col-xxl-7">
+                                <div class="card-body">
+                                    <h4 class="card-title lead fw-semibold mb-10"><a href="{{ route('services') }}" class="text-decoration-none stretched-link link-hover-animation-1">Freight Consolidation & Distribution </a></h4>													
+                                </div>
+                                <!-- card-body -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card-style-3 -->
+                    </div>
+                    <div class="col-lg-6 col-sm-6 col-xs-6">
+                        <div class="card card-style-1 wow fadeIn" data-wow-delay="300ms" data-wow-duration="1.2s">
+                            <div class="row gx-30 align-items-center">
+                                <div class="col-lg-12 col-xxl-5">
+                                <div class="card-image-wrapper border-10">
+                                    <img src="{{ asset('assets/images/service-image-8.jpg') }}" class="img-fluid card-image" alt="service-image-2">
+                                </div>
+                                <!-- card-image-wrapper -->
+                                </div>
+                                <div class="col-lg-12 col-xxl-7">
+                                <div class="card-body">
+                                    <h4 class="card-title lead fw-semibold mb-10"><a href="{{ route('services') }}" class="text-decoration-none stretched-link link-hover-animation-1">Cross-Border Logistics (Canada – U.S.)  </a></h4>													
+                                </div>
+                                <!-- card-body -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card-style-3 -->
+                    </div>
+                    <div class="col-lg-6 col-sm-6 col-xs-6">
+                        <div class="card card-style-1 wow fadeIn" data-wow-delay="300ms" data-wow-duration="1.2s">
+                            <div class="row gx-30 align-items-center">
+                                <div class="col-lg-12 col-xxl-5">
+                                <div class="card-image-wrapper border-10">
+                                    <img src="{{ asset('assets/images/service-image-2.jpg') }}" class="img-fluid card-image" alt="service-image-2">
+                                </div>
+                                <!-- card-image-wrapper -->
+                                </div>
+                                <div class="col-lg-12 col-xxl-7">
+                                <div class="card-body">
+                                    <h4 class="card-title lead fw-semibold mb-10"><a href="{{ route('services') }}" class="text-decoration-none stretched-link link-hover-animation-1">Dedicated Freight Management Programs  </a></h4>													
+                                </div>
+                                <!-- card-body -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card-style-3 -->
+                    </div>
                 </div>
-                <!-- d-flex -->
             </div>
             <!-- col-6 -->
         </div>
@@ -809,7 +879,7 @@
                     <div class="text-lg-center">
                         <h6 class="mb-10 text-primary fw-medium">Testimonial</h6>
                         <h3 class="mb-20 mb-lg-30">Over 30,000 People Trusted Us</h3>
-                        <p class="mb-0">“At Logistip, we are more than just a transportation company - we're your trusted partner in navigating the complexities of logistics and supply chain management.”</p>
+                        <p class="mb-0">“At SHIPWISE, we are more than just a transportation company - we're your trusted partner in navigating the complexities of logistics and supply chain management.”</p>
                     </div>
                     <!-- text-lg-center -->
                 </div>
@@ -862,7 +932,7 @@
                             </div>
                             <!-- testimonial-author-details -->
                             <div class=" text-center">
-                                <p class="mb-40 body-color-style-2">“Working with Logistip has been a game-changer for our business. attention to detail, reliability, and professionalism have exceeded our expectations time and time again. From streamlined logistics solutions to top-notch customer service, they truly go above and beyond to deliver results.”</p>
+                                <p class="mb-40 body-color-style-2">“Working with SHIPWISE has been a game-changer for our business. attention to detail, reliability, and professionalism have exceeded our expectations time and time again. From streamlined logistics solutions to top-notch customer service, they truly go above and beyond to deliver results.”</p>
     
                                 <div class="d-flex gap-1 justify-content-center">
                                     <span class="star-rating-icon">											
@@ -898,7 +968,7 @@
                             </div>
                             <!-- testimonial-author-details -->
                             <div class=" text-center">
-                                <p class="mb-40 body-color-style-2">“Working with Logistip has been a game-changer for our business. attention to detail, reliability, and professionalism have exceeded our expectations time and time again. From streamlined logistics solutions to top-notch customer service, they truly go above and beyond to deliver results.”</p>
+                                <p class="mb-40 body-color-style-2">“Working with SHIPWISE has been a game-changer for our business. attention to detail, reliability, and professionalism have exceeded our expectations time and time again. From streamlined logistics solutions to top-notch customer service, they truly go above and beyond to deliver results.”</p>
     
                                 <div class="d-flex gap-1 justify-content-center">
                                     <span class="star-rating-icon">											
@@ -934,7 +1004,7 @@
                             </div>
                             <!-- testimonial-author-details -->
                             <div class=" text-center">
-                                <p class="mb-40 body-color-style-2">“Working with Logistip has been a game-changer for our business. attention to detail, reliability, and professionalism have exceeded our expectations time and time again. From streamlined logistics solutions to top-notch customer service, they truly go above and beyond to deliver results.”</p>
+                                <p class="mb-40 body-color-style-2">“Working with SHIPWISE has been a game-changer for our business. attention to detail, reliability, and professionalism have exceeded our expectations time and time again. From streamlined logistics solutions to top-notch customer service, they truly go above and beyond to deliver results.”</p>
     
                                 <div class="d-flex gap-1 justify-content-center">
                                     <span class="star-rating-icon">											

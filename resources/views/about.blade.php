@@ -27,8 +27,8 @@
             <div class="col-xl-6 col-xxl-7">
                 <div class="row gy-30">
                     <div class="col-md-6">
-                        <div class="about-image-1 border-10 wow fadeInUp">										
-                            <img src="{{ asset('assets/images/about-image-6.jpg') }}" class="img-fluid" alt="about-image-6">										
+                        <div class="about-image-1 border-10 wow fadeInUp">
+                            <img src="{{ asset('assets/images/about-image-6.jpg') }}" class="img-fluid" alt="about-image-6">
                         </div>									
                         <!-- about-image-1 -->
                     </div>
@@ -43,8 +43,8 @@
                                     <h4 class="display-6 fw-bold lh-1 mb-0">Years Of Experience</h4>
                                 </li>											
                             </ul>
-                            <div class="about-image-2 border-10 wow fadeInUp">											
-                                <img src="{{ asset('assets/images/about-image-2.jpg') }}" class="img-fluid" alt="about-image-1">											
+                            <div class="about-image-2 border-10 wow fadeInUp">
+                                <img src="{{ asset('assets/images/about-image-2.jpg') }}" class="img-fluid" alt="about-image-1">
                             </div>	
                             <!-- about-image-1 -->									
                         </div>
@@ -59,9 +59,16 @@
                 <div class="mb-30 mb-xxl-40">
                     <h6 class="mb-3 text-primary">About Us</h6>
                     <h3 class="mb-20">A Legacy of <span class="text-primary">Excellence</span> in Transportation</h3>
-                    <p class="mb-4">At Logistip, we are more than just a transportation company - we're your trusted partner in navigating the complexities of logistics and supply chain management.</p>
+                    <p class="mb-4">
+                        With an elite network of pre-qualified carriers, real-time technology integration, and a 
+                        relentless focus on execution, Shipwise is more than a broker — we are your strategic logistics 
+                        partner committed to delivering excellence from pickup to final mile.
+                    </p>
                     <p class="mb-0 fw-medium body-color-style-2 custom-border-left pe-xxl-30">
-                        25 years of experience in the industry, we have built a reputation for excellence, reliability, customer service.
+                        Since 2019, Shipwise Freight Inc. has set the standard in freight brokerage, becoming the go-to 
+                        logistics partner for businesses across North America. We don’t just move freight — we 
+                        engineer smarter, faster, and more dependable transportation solutions that empower your 
+                        supply chain.
                     </p>
                 </div>
                 
@@ -73,7 +80,7 @@
                         <span class="contact-icon">											
                             <svg width="24" height="24"><use xlink:href="#phone-icon"></use></svg> 
                         </span>					
-                        <p class="mb-0 fs-5 fw-bold"><a href="tel:+07550321425" class="text-decoration-none link-hover-animation-1">+075 5032 1425</a></p>									
+                        <p class="mb-0 fs-5 fw-bold"><a href="tel:+07550321425" class="text-decoration-none link-hover-animation-1">+905-283-3652</a></p>									
                     </div>
                 </div>
                 <div class="d-flex flex-wrap gap-3 gap-xl-10">
@@ -117,7 +124,7 @@
                 </div>
                 <!-- col-md-5 -->
                 <div class="col-lg-6 col-xl-5">
-                    <p class="mb-0 text-lg-end">Whether you're a small business or a multinational corporation, logistip is your trusted partner for all your transportation and logistics needs.</p>								
+                    <p class="mb-0 text-lg-end">Whether you're a small business or a multinational corporation, SHIPWISE is your trusted partner for all your transportation and logistics needs.</p>								
                 </div>
                 <!-- col-md-3 -->
             </div>			
@@ -128,8 +135,8 @@
                         <span class="freight-icon">
                             <svg width="29" height="28"><use xlink:href="#air-freight-icon"></use></svg> 
                         </span>
-                        <h5 class="mb-0 service-3-title"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Air Freight Services</a></h5>
-                        <p class="mb-0  service-3-text">Our global network of airline partners ensure fast reliable delivery of your cargo to destinations worldwide.</p>
+                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Full Truckload (FTL) & Less Than Truckload (LTL)</a></h5>
+                        <p class="mb-0  service-3-text">Efficient shipping for large and small loads, maximizing space and minimizing costs.</p>
                     </div>
                 </div>
                 <!-- col -->
@@ -138,18 +145,17 @@
                         <span class="freight-icon">
                             <svg width="29" height="28"><use xlink:href="#road-freight-icon"></use></svg> 
                         </span>
-                        <h5 class="mb-0 service-3-title"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Road Freight Services</a></h5>
-                        <p class="mb-0  service-3-text">Our global network of airline partners ensure fast reliable delivery of your cargo to destinations worldwide.</p>
+                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Dry Van & Refrigerated (Temp-Controlled) Freight </a></h5>
+                        <p class="mb-0  service-3-text">Secure transport for all goods, from everyday items to temperature-sensitive products.</p>
                     </div>
                 </div>
-                <!-- col -->
                 <div class="col-md-6 col-lg-4">
                     <div class="service-3-wrapper hover-item shadow">
                         <span class="freight-icon">
-                            <svg width="29" height="28"><use xlink:href="#ocean-freight-icon"></use></svg> 
+                            <svg width="28" height="28"><use xlink:href="#ware-housing-icon"></use></svg> 
                         </span>
-                        <h5 class="mb-0 service-3-title"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Ocean Freight Services</a></h5>
-                        <p class="mb-0  service-3-text">Our global network of airline partners ensure fast reliable delivery of your cargo to destinations worldwide.</p>
+                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Dedicated Freight Management Programs </a></h5>
+                        <p class="mb-0  service-3-text">Customized logistics solutions, providing dedicated resources for your unique shipping needs.</p>
                     </div>
                 </div>
                 <!-- col -->
@@ -158,8 +164,8 @@
                         <span class="freight-icon">
                             <svg width="26" height="28"><use xlink:href="#rail-freight-icon"></use></svg> 
                         </span>
-                        <h5 class="mb-0 service-3-title"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Rail Freight Services</a></h5>
-                        <p class="mb-0  service-3-text">Our global network of airline partners ensure fast reliable delivery of your cargo to destinations worldwide.</p>
+                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Route Optimization & Load Planning</a></h5>
+                        <p class="mb-0  service-3-text">Smart planning for efficient routes and load configurations, reducing costs and transit times.</p>
                     </div>
                 </div>
                 <!-- col -->
@@ -168,8 +174,8 @@
                         <span class="freight-icon">
                             <svg width="32" height="28"><use xlink:href="#supply-chain-icon"></use></svg> 
                         </span>
-                        <h5 class="mb-0 service-3-title"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Supply chain management</a></h5>
-                        <p class="mb-0  service-3-text">Our global network of airline partners ensure fast reliable delivery of your cargo to destinations worldwide.</p>
+                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Freight Consolidation & Distribution</a></h5>
+                        <p class="mb-0  service-3-text">Combining shipments for cost-effective transport, then distributing to final destinations efficiently.</p>
                     </div>
                 </div>
                 <!-- col -->
@@ -178,11 +184,20 @@
                         <span class="freight-icon">
                             <svg width="28" height="28"><use xlink:href="#ware-housing-icon"></use></svg> 
                         </span>
-                        <h5 class="mb-0 service-3-title"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Warehousing Services</a></h5>
-                        <p class="mb-0  service-3-text">Our global network of airline partners ensure fast reliable delivery of your cargo to destinations worldwide.</p>
+                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Cross-Border Logistics (Canada – U.S.) </a></h5>
+                        <p class="mb-0  service-3-text">Seamless transport across borders, handling customs and regulations for smooth delivery.</p>
                     </div>
                 </div>
                 <!-- col -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-3-wrapper hover-item shadow">
+                        <span class="freight-icon">
+                            <svg width="29" height="28"><use xlink:href="#ocean-freight-icon"></use></svg> 
+                        </span>
+                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Expedited & Time-Critical Shipments</a></h5>
+                        <p class="mb-0  service-3-text">Fast, reliable delivery for urgent shipments, ensuring deadlines are met every time.</p>
+                    </div>
+                </div>
             </div>
             <!-- row -->
         </div>
