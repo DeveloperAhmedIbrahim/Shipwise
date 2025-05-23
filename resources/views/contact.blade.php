@@ -31,8 +31,25 @@
                             <svg width="24" height="24"><use xlink:href="#location-icon"></use></svg> 
                         </span>	
                         <span class="d-flex flex-column gap-2">
-                            <span class="contact-title fs-5 fw-semibold">Office Address</span>
-                            <span><a href="#map" class="text-decoration-none link-hover-animation-2">265 New Ave, Califonia City-1001, USA.</a></span>
+                            <span class="contact-title fs-5 fw-semibold">Head Office Address</span>
+                            <span>
+                                <a href="#map" class="text-decoration-none link-hover-animation-2">
+                                    SHIPWISE FREIGHT INC 5800 Ambler Dr Mississauga, ON L4W 4J4
+                                </a>
+                            </span>
+                        </span>	
+                    </li>
+                    <li class="d-flex gap-20 align-items-center wow fadeIn" data-wow-delay="150ms" data-wow-duration="1.3s">
+                        <span class="contact-icon location-icon">											
+                            <svg width="24" height="24"><use xlink:href="#location-icon"></use></svg> 
+                        </span>	
+                        <span class="d-flex flex-column gap-2">
+                            <span class="contact-title fs-5 fw-semibold">USA Office Address</span>
+                            <span>
+                                <a href="#map" class="text-decoration-none link-hover-animation-2">
+                                    SHIPWISE FREIGHT LLC 5900 Balcones DR STE 100 Austin TX 78731
+                                </a>
+                            </span>
                         </span>	
                     </li>
                     <li class="d-flex gap-20 align-items-center wow fadeIn" data-wow-delay="300ms" data-wow-duration="1.3s">
@@ -41,7 +58,7 @@
                         </span>		
                         <span class="d-flex flex-column gap-2">
                             <span class="contact-title fs-5 fw-semibold">Send Message</span>
-                            <span><a href="mailto:info@logistics.com" class="text-decoration-none link-hover-animation-2">info@logistics.com</a></span>
+                            <span><a href="mailto:info@shipwisefreight.com" class="text-decoration-none link-hover-animation-2">info@shipwisefreight.com</a></span>
                         </span>
                     </li>								
                     <li class="d-flex gap-20 align-items-center wow fadeIn" data-wow-delay="450ms" data-wow-duration="1.3s">
@@ -72,7 +89,7 @@
                             <input type="text" class="form-control" id="InputNumber1" name="InputNumber" placeholder="Phone Number" required="">
                         </div>
                         <div class="col-md-6">
-                            <input type="text" class="form-control" id="InputCity1" name="InputCity" placeholder="City">
+                            <input type="text" class="form-control" id="InputCompany1" name="InputCompany" placeholder="Company Name">
                         </div>
                         <div class="col-12">
                             <textarea class="form-control" id="InputMessage1" name="InputMessage" placeholder="Your Message" rows="3"></textarea>

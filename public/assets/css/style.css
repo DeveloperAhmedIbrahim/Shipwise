@@ -7702,8 +7702,8 @@ body {
 }
 
 :root {
-  --bs-primary: #F06728;
-  --bs-primary-rgb: 240, 103, 40;
+  --bs-primary: #B42622;
+  --bs-primary-rgb: 180, 38, 34;
   --bs-secondary: #25224B;
   --bs-secondary-rgb: 37, 34, 75;
   --bs-border-color: var(--bs-body-color-style-1);
@@ -7732,8 +7732,8 @@ body {
 }
 
 [data-bs-theme=light] {
-  --bs-primary: #F06728;
-  --bs-primary-rgb: 240, 103, 40;
+  --bs-primary: #B42622;
+  --bs-primary-rgb: 180, 38, 34;
   --bs-secondary: #25224B;
   --bs-secondary-rgb: 37, 34, 75;
   --bs-border-color: var(--bs-primary);

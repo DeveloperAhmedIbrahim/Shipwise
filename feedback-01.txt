@@ -1,0 +1,67 @@
+Please add both address to website
+
+
+HEAD OFFICE
+
+SHIPWISE FREIGHT INC
+5800 Ambler Dr
+Mississauga, ON L4W 4J4
+
+
+USA OFFICE
+
+SHIPWISE FREIGHT LLC
+5900 Balcones DR STE 100
+Austin TX 78731
+
+
+Visual & Design Adjustments
+Replace Plane Imagery with Trucking Visuals: Substitute all airplane and air freight images with visuals of 18-wheelers, dry vans, reefers, and cross-border trucking operations to better represent our core services.
+
+Highlight Freight Forwarding Services: Ensure that the homepage prominently features our freight forwarding capabilities, emphasizing our expertise in coordinating shipments across various modes of transportation.
+shipwiselogistics.com
+
+Eliminate Pricing Options: Remove any pricing tables or cost estimators to prevent confusion, as our services are tailored and pricing varies based on specific client needs.
+
+Omit "Meet Our Dedicated Team" Section: Exclude this section for now to maintain focus on our services and capabilities.
+
+Remove "Trusted Collaborators" Section: Unless we have formal partnerships to showcase, it's advisable to omit this section to maintain credibility.
+
+
+
+
+Contact Information Updates
+Email Address: Update the contact email to: info@shipwisefreight.com.
+
+Phone Number: Change the contact number to: 905-283-3652.
+
+Contact Form: Ensure the contact form is streamlined, requesting essential information such as Name, Email, Phone Number, Company Name, and a Message field.
+
+
+
+
+Navigation & Content Structure
+Homepage: Introduce a clear value proposition highlighting our commitment to reliable freight forwarding and logistics solutions.
+shipwiselogistics.com
+
+Services Page: Detail our offerings, including FTL, LTL, cross-border shipments, temperature-controlled logistics, and real-time tracking capabilities.
+
+About Us Page: Provide a concise overview of our company history, mission, and the industries we serve.
+
+Contact Page: Include updated contact information and a user-friendly form for inquiries.
+
+Design Aesthetics
+Color Scheme: Opt for a professional color palette that reflects our brand identity, ensuring readability and visual appeal.
+
+Typography: Use clean and modern fonts to enhance readability across devices.
+
+Responsive Design: Ensure the website is fully responsive, providing an optimal viewing experience on desktops, tablets, and mobile devices.
+
+
+
+Search Engine Optimization (SEO)
+Meta Tags: Incorporate relevant meta titles and descriptions for each page to improve search engine visibility.
+
+Alt Text for Images: Add descriptive alt text to all images to enhance SEO and accessibility.
+
+Keyword Integration: Naturally integrate industry-relevant keywords throughout the content to improve search rankings.

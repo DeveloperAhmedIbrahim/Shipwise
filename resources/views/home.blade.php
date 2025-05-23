@@ -2,53 +2,75 @@
 @section('title', 'Home')
 @section('content')
 
-<!--Hero Section ======================-->
-<section class="section-hero hero-1 hero-components-style-1 hero-margin-top-style-1 position-relative mb-60 mb-lg-100 mb-xxl-120">
-    <div class="hero-overlay">
-        <div class="hero-wrapper parallax position-relative text-bg-dark" data-bs-theme="dark">
-            <div class="container">
-                <div class="hero-inner d-flex flex-column gap-30 text-center text-md-start">
-                    <h1 class="mb-0 hero-heading-text">Welcome to Shipwise Freight Inc.</h1>
-                    <p class="mb-10 mb-lg-30 lead hero-text">Where Precision Meets Performance in Freight Brokerage.</p>
-                    <div class="hero-bottom-components d-flex flex-column flex-lg-row align-items-lg-center gap-30">
-                        <div class="mb-5 mb-md-0">
-                            <a href="{{ route('about') }}" class="btn btn-primary d-inline-flex align-items-center gap-3 text-uppercase">
-                                <span>About Us</span>
-                                <span class="arrow-icon-2">											
-                                    <svg width="11" height="12"><use xlink:href="#arrow-icon-2"></use></svg> 
-                                </span>
-                            </a>
-                        </div>
-                        <div class="d-flex flex-column flex-md-row align-items-center gap-4">
-                            <ul class="hero-author-wrapper list-unstyled mb-0 d-flex gap-0">
-                                <li>
-                                    <img src="{{ asset('assets/images/hero-author-1.jpg') }}" class="hero-author-image" alt="hero-author-1">
-                                </li>
-                                <li>
-                                    <img src="{{ asset('assets/images/hero-author-2.jpg') }}" class="hero-author-image" alt="hero-author-2">
-                                </li>
-                                <li>
-                                    <img src="{{ asset('assets/images/hero-author-3.jpg') }}" class="hero-author-image" alt="hero-author-3">
-                                </li>
-                            </ul>
-                            <div class="d-flex flex-column align-items-center align-items-md-start gap-0">
-                                <h5 class="mb-0 d-flex fw-semibold">
-                                    <span class="odometer" data-count-to=60></span><span class="odometer-pertial-text">K+</span>
-                                </h5>
-                                <p class="mb-0  fw-medium">Satisfied Customer</p>
-                            </div>
-                        </div>	
-                    </div>
-                </div>
-                <!-- hero-inner -->
-            </div>
-            <!-- container -->					
+<style>
+.section-hero {
+  min-height: 100vh;   /* at least full-screen, but grows if needed */
+  height: auto;        /* so content never gets cut off */
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center; /* vertical-center your text */
+}
+
+
+@media (max-width: 768px) {
+  .section-hero {
+    height: 50vh;        /* let it size to content */
+  }
+}
+
+
+  #heroVideo {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 1;
+  }
+
+  .hero-overlay {
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero-overlay::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
+  }
+</style>
+
+<section class="section-hero mb-60 mb-lg-100 mb-xxl-120">
+  <video
+    id="heroVideo"
+    autoplay
+    muted
+    loop
+    playsinline
+  >
+    <source src="{{ asset('assets/videos/SHIPWISE-INTRO-VIDEO.mp4') }}" type="video/mp4">
+    <!-- fallback image: -->
+    <img src="{{ asset('assets/images/about-image-2.jpg') }}" alt="Hero fallback" class="w-100 h-auto">
+  </video>
+
+  <div class="hero-overlay">
+    <div class="hero-wrapper parallax position-relative text-bg-dark" data-bs-theme="dark">
+      <div class="container">
+        <div class="hero-inner d-flex flex-column gap-30 text-center text-md-start">
+          <!-- your existing hero content -->
         </div>
-        <!-- hero-wrapper -->
+      </div>
     </div>
-    
+  </div>
 </section>
 <!--Hero Section ======================-->
+
+
+
+
 
 
 <!--About Section ======================-->
@@ -59,7 +81,7 @@
                 <div class="row gy-30">
                     <div class="col-md-6">
                         <div class="about-image-1 border-10 wow fadeInUp">
-                            <img src="{{ asset('assets/images/about-image-6.jpg') }}" class="img-fluid" alt="about-image-6">
+                            <img src="{{ asset('assets/images/image-02.jpg') }}" class="img-fluid" alt="about-image-6">
                         </div>									
                         <!-- about-image-1 -->
                     </div>
@@ -272,7 +294,7 @@
                             <div class="row gx-30 align-items-center">
                                 <div class="col-lg-12 col-xxl-5">
                                 <div class="card-image-wrapper border-10">
-                                    <img src="{{ asset('assets/images/service-image-7.jpg') }}" class="img-fluid card-image" alt="service-image-2">
+                                    <img src="{{ asset('assets/images/image-05.jpg') }}" class="img-fluid card-image" alt="service-image-2">
                                 </div>
                                 <!-- card-image-wrapper -->
                                 </div>
@@ -459,11 +481,11 @@
                     <div class="row g-30">
                         <div class="col-sm-6">
                             <div class="portfolio-image hover-item portfolio-image-2 border-10 position-relative">
-                                <img src="{{ asset('assets/images/portfolio-3.jpg') }}" class="img-fluid" alt="portfolio-3">
+                                <img src="{{ asset('assets/images/image-04.jpg') }}" class="img-fluid" alt="portfolio-3">
                                 <div class="portfolio-image-hover">
                                     <div class="portfolio-hover-left-content">
                                         <a href="#" class="portfolio-subtitle-style-2 text-decoration-none mb-0 fw-medium">Logistics</a>
-                                        <h5 class="portfolio-hover-heading mb-0">Air Freight Solution</h5>
+                                        <h5 class="portfolio-hover-heading mb-0">Secure Temprature</h5>
                                     </div>	
                                     <!-- portfolio-hover-left-content -->
                                     <div>
@@ -528,169 +550,6 @@
 <!--Portfolio Section ======================-->
 
 
-<!--Pricing Section ======================-->
-<section class="section-pricing pricing-1 hover-element py-60 py-lg-100 py-xxl-120">
-    <div class="container">
-        <div class="text-lg-center mb-40">
-            <h6 class="mb-10 text-primary fw-medium">Pricing</h6>
-            <h3 class="mb-0">Our Best <span class="text-primary">Pricing</span> Plan</h3>
-        </div>
-        <!-- text-lg-center -->
-        <div class="row gx-30 gy-40">
-            <div class="col-lg-6 col-xl-4">
-                <div class="card card-pricing hover-item shadow wow fadeIn" data-wow-delay="150ms" data-wow-duration="1.3s">
-                    <img src="{{ asset('assets/images/pricing-image-1.jpg') }}" class="card-img-top" alt="pricing-image-1">
-                    <div class="card-body card-body-bg-2 text-center">
-                        <h4 class="card-title mb-10 position-relative">Road Freight</h4>
-                        <div class="d-flex align-items-baseline justify-content-center gap-0 pb-20 mb-30 border-bottom position-relative">
-                        <h4 class="fs-2 pricing-amount mb-0">$120</h4>
-                        <span class="pricing-quantity">/150kg</span>
-                        </div>
-                        <ul class="pricing-list list-unstyled d-flex flex-column mb-30 gap-20 gap-sm-4 position-relative">
-                        <li class="d-flex align-items-center gap-2 gap-sm-3 fw-medium">
-                            <span class="check-icon">											
-                                <svg width="17" height="12"><use xlink:href="#check-icon"></use></svg> 
-                            </span>
-                            Real Time Rate Shoping
-                        </li>
-                        <li class="d-flex align-items-center gap-2 gap-sm-3 fw-medium">
-                            <span class="check-icon">											
-                                <svg width="17" height="12"><use xlink:href="#check-icon"></use></svg> 
-                            </span>
-                            Customs Business Rules
-                        </li>
-                        <li class="d-flex align-items-center gap-2 gap-sm-3 fw-medium">
-                            <span class="check-icon">											
-                                <svg width="17" height="12"><use xlink:href="#check-icon"></use></svg> 
-                            </span>
-                            200 Freight Shipment/Month
-                        </li>
-                        <li class="d-flex align-items-center gap-2 gap-sm-3 fw-medium opacity-50">
-                            <span class="check-icon">											
-                                <svg width="17" height="12"><use xlink:href="#check-icon"></use></svg> 
-                            </span>
-                            1 Warehouse
-                        </li>
-                        <li class="d-flex align-items-center gap-2 gap-sm-3 fw-medium opacity-50">
-                            <span class="check-icon">											
-                                <svg width="17" height="12"><use xlink:href="#check-icon"></use></svg> 
-                            </span>
-                            Full Insurance
-                        </li>
-                        </ul>
-                        <div>
-                        <a href="{{ route('contact') }}" class="btn btn-secondary">Get Started</a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <!-- col-4 -->
-            <div class="col-lg-6 col-xl-4">
-                <div class="card card-pricing hover-item shadow active wow fadeIn" data-wow-delay="400ms" data-wow-duration="1.3s">
-                    <img src="{{ asset('assets/images/pricing-image-2.jpg') }}" class="card-img-top" alt="pricing-image-2">
-                    <div class="card-body card-body-bg-1 text-center">
-                        <h4 class="card-title mb-10 position-relative">Air Freight</h4>
-                        <div class="d-flex align-items-baseline justify-content-center gap-0 pb-20 mb-30 border-bottom position-relative">
-                        <h4 class="fs-2 pricing-amount mb-0">$270</h4>
-                        <span class="pricing-quantity">/250kg</span>
-                        </div>
-                        <ul class="pricing-list list-unstyled d-flex flex-column mb-30 gap-20 gap-sm-4 position-relative">
-                        <li class="d-flex align-items-center gap-2 gap-sm-3 fw-medium">
-                            <span class="check-icon">											
-                                <svg width="17" height="12"><use xlink:href="#check-icon"></use></svg> 
-                            </span>
-                            Real Time Rate Shoping
-                        </li>
-                        <li class="d-flex align-items-center gap-2 gap-sm-3 fw-medium">
-                            <span class="check-icon">											
-                                <svg width="17" height="12"><use xlink:href="#check-icon"></use></svg> 
-                            </span>
-                            Customs Business Rules
-                        </li>
-                        <li class="d-flex align-items-center gap-2 gap-sm-3 fw-medium">
-                            <span class="check-icon">											
-                                <svg width="17" height="12"><use xlink:href="#check-icon"></use></svg> 
-                            </span>
-                            200 Freight Shipment/Month
-                        </li>
-                        <li class="d-flex align-items-center gap-2 gap-sm-3 fw-medium">
-                            <span class="check-icon">											
-                                <svg width="17" height="12"><use xlink:href="#check-icon"></use></svg> 
-                            </span>
-                            1 Warehouse
-                        </li>
-                        <li class="d-flex align-items-center gap-2 gap-sm-3 fw-medium opacity-50">
-                            <span class="check-icon">											
-                                <svg width="17" height="12"><use xlink:href="#check-icon"></use></svg> 
-                            </span>
-                            Full Insurance
-                        </li>
-                        </ul>
-                        <div>
-                        <a href="{{ route('contact') }}" class="btn btn-secondary">Get Started</a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <!-- col-4 -->
-            <div class="col-lg-6 col-xl-4">
-                <div class="card card-pricing hover-item shadow wow fadeIn" data-wow-delay="650ms" data-wow-duration="1.3s">
-                    <img src="{{ asset('assets/images/pricing-image-3.jpg') }}" class="card-img-top" alt="pricing-image-3">
-                    <div class="card-body card-body-bg-3 text-center">
-                        <h4 class="card-title mb-10 position-relative">Ocean Freight</h4>
-                        <div class="d-flex align-items-baseline justify-content-center gap-0 pb-20 mb-30 border-bottom position-relative">
-                        <h4 class="fs-2 pricing-amount mb-0">$320</h4>
-                        <span class="pricing-quantity">/500kg</span>
-                        </div>
-                        <ul class="pricing-list list-unstyled d-flex flex-column mb-30 gap-20 gap-sm-4 position-relative">
-                        <li class="d-flex align-items-center gap-2 gap-sm-3 fw-medium">
-                            <span class="check-icon">											
-                                <svg width="17" height="12"><use xlink:href="#check-icon"></use></svg> 
-                            </span>
-                            Real Time Rate Shoping
-                        </li>
-                        <li class="d-flex align-items-center gap-2 gap-sm-3 fw-medium">
-                            <span class="check-icon">											
-                                <svg width="17" height="12"><use xlink:href="#check-icon"></use></svg> 
-                            </span>
-                            Customs Business Rules
-                        </li>
-                        <li class="d-flex align-items-center gap-2 gap-sm-3 fw-medium">
-                            <span class="check-icon">											
-                                <svg width="17" height="12"><use xlink:href="#check-icon"></use></svg> 
-                            </span>
-                            200 Freight Shipment/Month
-                        </li>
-                        <li class="d-flex align-items-center gap-2 gap-sm-3 fw-medium">
-                            <span class="check-icon">											
-                                <svg width="17" height="12"><use xlink:href="#check-icon"></use></svg> 
-                            </span>
-                            1 Warehouse
-                        </li>
-                        <li class="d-flex align-items-center gap-2 gap-sm-3 fw-medium">
-                            <span class="check-icon">											
-                                <svg width="17" height="12"><use xlink:href="#check-icon"></use></svg> 
-                            </span>
-                            Full Insurance
-                        </li>
-                        </ul>
-                        <div>
-                        <a href="{{ route('contact') }}" class="btn btn-secondary">Get Started</a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <!-- col-4 -->
-        </div>
-        <!-- row -->
-    </div>
-    <!-- container -->
-</section>
-<!--Pricing Section ======================-->
-
 
 <!--CTA Section ======================-->
 <section class="section-cta cta-1 mb-60 mb-lg-100 mb-xxl-120">
@@ -716,158 +575,6 @@
 </section>
 <!--CTA Section ======================-->
 
-
-<!--Team Section ======================-->
-<section class="section-team pb-60 pb-lg-100 pb-xxl-120 hover-element">
-    <div class="container">
-        <div class="section-top-contents text-lg-center mb-40">
-            <h6 class="mb-10 text-primary fw-medium">Our Team</h6>
-            <h3 class="mb-20 mb-lg-30">Meet Our <span class="text-primary">Dedicated</span> Team</h3>
-            <p class="mb-0">Get to know the individuals who work tirelessly behind the scenes to ensure that we deliver top-notch service to our clients.</p>
-        </div>
-        <!-- text-lg-center -->
-
-        <div class="row g-30 wow fadeInUp">
-            <div class="col-lg-4">
-                <div class="team-wrapper hover-item position-relative border-10 active">								
-                    <img src="{{ asset('assets/images/team-1.jpg') }}" class="img-fluid" alt="team-1">								
-                    <!-- team-image -->
-                    <div class="team-image-hover d-flex flex-column justify-content-center align-items-center gap-1">																			
-                        <h5 class="mb-0"><a href="#" class="text-decoration-none stretched-link link-hover-animation-1">David M.Lalan</a></h5>
-                        <p class="mb-0 fw-medium">Supply Chain Manager</p>																		
-                    </div>
-                    <!-- portfolio-image-hover -->
-                </div>
-                <!-- team-wrapper -->
-            </div>
-            <!-- col-4 -->
-            <div class="col-lg-4">
-                <div class="team-wrapper hover-item position-relative border-10">								
-                    <img src="{{ asset('assets/images/team-2.jpg') }}" class="img-fluid" alt="team-2">								
-                    <!-- team-image -->
-                    <div class="team-image-hover d-flex flex-column justify-content-center align-items-center gap-1">																			
-                        <h5 class="mb-0"><a href="#" class="text-decoration-none stretched-link link-hover-animation-1">Tim David</a></h5>
-                        <p class="mb-0 fw-medium">Construction Manager</p>																		
-                    </div>
-                    <!-- portfolio-image-hover -->
-                </div>
-                <!-- team-wrapper -->
-            </div>
-            <!-- col-4 -->
-            <div class="col-lg-4">
-                <div class="team-wrapper hover-item position-relative border-10">								
-                    <img src="{{ asset('assets/images/team-3.jpg') }}" class="img-fluid" alt="team-3">								
-                    <!-- team-image -->
-                    <div class="team-image-hover d-flex flex-column justify-content-center align-items-center gap-1">																			
-                        <h5 class="mb-0"><a href="#" class="text-decoration-none stretched-link link-hover-animation-1">James Bond</a></h5>
-                        <p class="mb-0 fw-medium">Architechture Manager</p>																		
-                    </div>
-                    <!-- portfolio-image-hover -->
-                </div>
-                <!-- team-wrapper -->
-            </div>
-            <!-- col-4 -->
-            <div class="col-lg-4">
-                <div class="team-wrapper hover-item position-relative border-10">								
-                    <img src="{{ asset('assets/images/team-4.jpg') }}" class="img-fluid" alt="team-4">								
-                    <!-- team-image -->
-                    <div class="team-image-hover d-flex flex-column justify-content-center align-items-center gap-1">																			
-                        <h5 class="mb-0"><a href="#" class="text-decoration-none stretched-link link-hover-animation-1">Elena Dewan</a></h5>
-                        <p class="mb-0 fw-medium">Construction Manager</p>																		
-                    </div>
-                    <!-- portfolio-image-hover -->
-                </div>
-                <!-- team-wrapper -->
-            </div>
-            <!-- col-4 -->
-            <div class="col-lg-4">
-                <div class="team-wrapper hover-item position-relative border-10">								
-                    <img src="{{ asset('assets/images/team-5.jpg') }}" class="img-fluid" alt="team-5">								
-                    <!-- team-image -->
-                    <div class="team-image-hover d-flex flex-column justify-content-center align-items-center gap-1">																			
-                        <h5 class="mb-0"><a href="#" class="text-decoration-none stretched-link link-hover-animation-1">Tom Justin</a></h5>
-                        <p class="mb-0 fw-medium">Construction Manager</p>																		
-                    </div>
-                    <!-- portfolio-image-hover -->
-                </div>
-                <!-- team-wrapper -->
-            </div>
-            <!-- col-4 -->
-            <div class="col-lg-4">
-                <div class="team-wrapper position-relative border-10 custom-active">								
-                    <img src="{{ asset('assets/images/team-6.jpg') }}" class="img-fluid" alt="team-6">								
-                    <!-- team-image -->
-                    <div class="team-image-hover d-flex flex-column text-center align-items-center gap-1">																			
-                        <h2 class="mb-0">300+</h2>	
-                        <p class="mb-20 team-image-text">Creative team member in logistics Company</p>
-                        <a href="team.html" class="btn btn-primary">Join Our Team</a>																	
-                    </div>
-                    <!-- portfolio-image-hover -->
-                </div>
-                <!-- team-wrapper -->
-            </div>
-            <!-- col-4 -->
-        </div>
-        <!-- row -->
-    </div>
-    <!-- container -->
-</section>
-<!--Team Section ======================-->
-
-
-<!--Brand Section ======================-->
-<section class="section-brand brand-1 pb-60 pb-lg-100 pb-xxl-120">
-    <div class="bg-custom-light py-60 py-lg-100 py-xxl-120">
-        <div class="container">
-            <div class="text-lg-center">
-                <h6 class="mb-10 text-primary fw-medium">Our Partners</h6>
-                <h3 class="mb-40">Our <span class="text-primary">Trusted</span> Collaborators</h3>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-3 g-30">
-                    <div class="col">
-                        <a href="#" class="brand-item text-decoration-none">
-                            <img src="{{ asset('assets/images/brand-1.png') }}" class="img-fluid" alt="brand-1">
-                        </a>
-                    </div>
-                    <!-- col -->
-                    <div class="col">
-                        <a href="#" class="brand-item text-decoration-none">
-                            <img src="{{ asset('assets/images/brand-2.png') }}" class="img-fluid" alt="brand-2">
-                        </a>
-                    </div>
-                    <!-- col -->
-                    <div class="col">
-                        <a href="#" class="brand-item text-decoration-none">
-                            <img src="{{ asset('assets/images/brand-3.png') }}" class="img-fluid" alt="brand-3">
-                        </a>
-                    </div>
-                    <!-- col -->
-                    <div class="col">
-                        <a href="#" class="brand-item text-decoration-none">
-                            <img src="{{ asset('assets/images/brand-4.png') }}" class="img-fluid" alt="brand-4">
-                        </a>
-                    </div>
-                    <!-- col -->
-                    <div class="col">
-                        <a href="#" class="brand-item text-decoration-none">
-                            <img src="{{ asset('assets/images/brand-5.png') }}" class="img-fluid" alt="brand-5">
-                        </a>
-                    </div>
-                    <!-- col -->
-                    <div class="col">
-                        <a href="#" class="brand-item text-decoration-none">
-                            <img src="{{ asset('assets/images/brand-6.png') }}" class="img-fluid" alt="brand-6">
-                        </a>
-                    </div>
-                    <!-- col -->
-                </div>
-                <!-- row -->
-            </div>
-        </div>
-        <!-- container -->
-    </div>
-    <!-- brand-wrapper -->
-</section>
-<!--Brand Section ======================-->
 
 
 <!--Testimonial Section ======================-->

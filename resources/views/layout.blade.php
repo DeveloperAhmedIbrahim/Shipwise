@@ -138,29 +138,38 @@
 								</div>
 
 								<div class="d-flex gap-20 social-icons text-white">
-										<a href="#" class="text-decoration-none" aria-label="social-icon">
-											<span class="facebook-icon">											
-												<svg width="9" height="17"><use xlink:href="#facebook-icon"></use></svg> 
-											</span>
-										</a>
-										<a href="#" class="text-decoration-none" aria-label="social-icon">
-											<span class="twitter-icon">											
-												<svg width="19" height="15"><use xlink:href="#twitter-icon"></use></svg> 
-											</span>
-										</a>									
-										<a href="#" class="text-decoration-none" aria-label="social-icon">
-											<span class="linkedin-icon">											
-												<svg width="17" height="15"><use xlink:href="#linkedin-icon"></use></svg> 
-											</span>
-										</a>	
-										<a href="#" class="text-decoration-none" aria-label="social-icon">
-											<span class="instagram-icon-3">											
-												<svg width="18" height="18"><use xlink:href="#instagram-icon-3"></use></svg> 
-											</span>
-										</a>								
-									</div>
-								<!-- logo-footer -->
-								
+									<a href="#" class="text-decoration-none" aria-label="social-icon">
+										<span class="facebook-icon">											
+											<svg width="9" height="17"><use xlink:href="#facebook-icon"></use></svg> 
+										</span>
+									</a>
+									<a href="#" class="text-decoration-none" aria-label="social-icon">
+										<span class="twitter-icon">											
+											<svg width="19" height="15"><use xlink:href="#twitter-icon"></use></svg> 
+										</span>
+									</a>									
+									<a href="#" class="text-decoration-none" aria-label="social-icon">
+										<span class="linkedin-icon">											
+											<svg width="17" height="15"><use xlink:href="#linkedin-icon"></use></svg> 
+										</span>
+									</a>	
+									<a href="#" class="text-decoration-none" aria-label="social-icon">
+										<span class="instagram-icon-3">											
+											<svg width="18" height="18"><use xlink:href="#instagram-icon-3"></use></svg> 
+										</span>
+									</a>								
+								</div>
+								{{-- <!-- logo-footer -->
+								<div class="row">
+									<ul class="list-unstyled mb-0 d-flex flex-column gap-10 mt-5">
+										<li class="d-flex gap-3 align-items-center">
+											<span class="contact-icon location-icon">											
+												<svg width="24" height="24"><use xlink:href="#location-icon"></use></svg> 
+											</span>											
+											<p class="mb-0"><a id="mapDirectionBtn" href="#" class="text-decoration-none link-hover-animation-2" data-bs-toggle="modal" data-bs-target="#RoutingMapModal">Always On: 24/7/365 North America Coverage</a></p>
+										</li>
+									</ul>
+								</div> --}}
 							</div>
 							<!-- col-4 -->
 
@@ -173,7 +182,7 @@
 												<span class="contact-icon mail-icon">											
 													<svg width="20" height="20"><use xlink:href="#mail-icon"></use></svg> 
 												</span>											
-												<p class="mb-0"><a href="mailto:info@logistics.com" class="text-decoration-none link-hover-animation-2">sales@shipwisefreight.com </a></p>
+												<p class="mb-0"><a href="mailto:info@shipwisefreight.com" class="text-decoration-none link-hover-animation-2">sales@shipwisefreight.com </a></p>
 											</li>
 											<li class="d-flex gap-3 align-items-center">
 												<span class="contact-icon phone-icon">											
@@ -181,17 +190,35 @@
 												</span>
 												<p class="mb-0"><a href="tel:(+0123)234556789" class="text-decoration-none link-hover-animation-2">905-283-3652 <br> 437-353-8433 </a></p>
 											</li>
-											<li class="d-flex gap-3 align-items-center">
+											<li class="d-flex gap-3 align-items-start">
 												<span class="contact-icon location-icon">											
 													<svg width="24" height="24"><use xlink:href="#location-icon"></use></svg> 
 												</span>											
-												<p class="mb-0"><a id="mapDirectionBtn" href="#" class="text-decoration-none link-hover-animation-2" data-bs-toggle="modal" data-bs-target="#RoutingMapModal">Head Office: Toronto, Ontario.</a></p>
+												<p class="mb-0">
+													<a id="mapDirectionBtn" href="#" class="text-decoration-none link-hover-animation-2" data-bs-toggle="modal" data-bs-target="#RoutingMapModal">
+														Head Office
+													</a>
+													<br>
+													<a id="mapDirectionBtn" href="#" class="text-decoration-none link-hover-animation-2" data-bs-toggle="modal" data-bs-target="#RoutingMapModal">
+														SHIPWISE FREIGHT INC 5800 Ambler Dr Mississauga, ON L4W 4J4
+													</a>
+												</p>
 											</li>
-											<li class="d-flex gap-3 align-items-center">
+											<li class="d-flex gap-3 align-items-start">
 												<span class="contact-icon location-icon">											
 													<svg width="24" height="24"><use xlink:href="#location-icon"></use></svg> 
 												</span>											
-												<p class="mb-0"><a id="mapDirectionBtn" href="#" class="text-decoration-none link-hover-animation-2" data-bs-toggle="modal" data-bs-target="#RoutingMapModal">Always On: 24/7/365 North America Coverage</a></p>
+												<p class="mb-0">
+													<a id="mapDirectionBtn" href="#" class="text-decoration-none link-hover-animation-2" data-bs-toggle="modal" data-bs-target="#RoutingMapModal">
+														USA OFFICE
+													</a>
+													<br>
+													<a id="mapDirectionBtn" href="#" class="text-decoration-none link-hover-animation-2" data-bs-toggle="modal" data-bs-target="#RoutingMapModal">
+														SHIPWISE FREIGHT LLC
+														5900 Balcones DR STE 100
+														Austin TX 78731
+													</a>
+												</p>
 											</li>											
 										</ul>
 									</div>	
@@ -290,10 +317,11 @@
 
 
 			<!-- Modal-Map -->
-			<div class="modal modal-fullscreen routing-map-modal fade" id="RoutingMapModal" tabindex="-1" aria-labelledby="RoutingMapLabel" aria-hidden="true">
+			{{-- <div class="modal modal-fullscreen routing-map-modal fade" id="RoutingMapModal" tabindex="-1" aria-labelledby="RoutingMapLabel" aria-hidden="true">
 				<div class="modal-dialog modal-dialog-centered">
 					<div class="modal-content">
 						<div class="modal-header">
+						<h1 class="modal-title fs-5" id="RoutingMapLabel">Head Office: Toronto, Ontario.</h1>
 						<h1 class="modal-title fs-5" id="RoutingMapLabel">Head Office: Toronto, Ontario.</h1>
 						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 						</div>
@@ -302,7 +330,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> --}}
 			<!-- Modal-Map -->
 						
 
@@ -448,24 +476,23 @@
 			<!-- SVG ======================-->
 		</div>
 		<!-- pages -->
-			
 	
-			<script src="{{ asset('assets/js/jquery-3.7.0.min.js') }}"></script>	
-			<script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>	
-			<script src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>	
-			<script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>		
-			<script src="{{ asset('assets/js/wow.min.js') }}"></script>	
-			<script src="{{ asset('assets/js/animate.js') }}"></script>					
+		<script src="{{ asset('assets/js/jquery-3.7.0.min.js') }}"></script>	
+		<script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>	
+		<script src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>	
+		<script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>		
+		<script src="{{ asset('assets/js/wow.min.js') }}"></script>	
+		<script src="{{ asset('assets/js/animate.js') }}"></script>					
 
-			<!-- map -->			
-			<script src="{{ asset('assets/js/leaflet.js') }}"></script>
-			<script src="{{ asset('assets/js/leaflet-routing-machine.min.js') }}"></script>
-			<script src="{{ asset('assets/js/leaflet-scripts.js') }}"></script>
-			<!-- map -->
-				
-			<script src="{{ asset('assets/js/jquery.progressScroll.min.js') }}"></script>	
-			<script src="{{ asset('assets/js/odometer.js') }}"></script>	
-			<script src="{{ asset('assets/js/script.js') }}"></script>	
+		<!-- map -->			
+		<script src="{{ asset('assets/js/leaflet.js') }}"></script>
+		<script src="{{ asset('assets/js/leaflet-routing-machine.min.js') }}"></script>
+		<script src="{{ asset('assets/js/leaflet-scripts.js') }}"></script>
+		<!-- map -->
+			
+		<script src="{{ asset('assets/js/jquery.progressScroll.min.js') }}"></script>	
+		<script src="{{ asset('assets/js/odometer.js') }}"></script>	
+		<script src="{{ asset('assets/js/script.js') }}"></script>	
 
 	</body>
 </html>
