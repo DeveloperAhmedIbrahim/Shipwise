@@ -117,89 +117,25 @@
 <section class="section-service service-3 pb-60 pb-lg-100 pb-xxl-120 hover-element">
     <div class="bg-custom-light py-60 py-lg-100 py-xxl-120">
         <div class="container">
-            <div class="row justify-content-between align-items-lg-end gx-0 gy-30 mb-40">
-                <div class="col-lg-5 col-xl-4">
-                    <h6 class="subtitle mb-10 text-primary">Our Service</h6>
-                    <h3 class="mb-0">Navigating Your <span class="text-primary">Logistics</span> Journey</h3>
-                </div>
-                <!-- col-md-5 -->
-                <div class="col-lg-6 col-xl-5">
-                    <p class="mb-0 text-lg-end">Whether you're a small business or a multinational corporation, SHIPWISE is your trusted partner for all your transportation and logistics needs.</p>								
-                </div>
-                <!-- col-md-3 -->
-            </div>			
-            <!--row mb-40 -->
-            <div class="row g-30 wow fadeInUp">
-                <div class="col-md-6 col-lg-4">
-                    <div class="service-3-wrapper hover-item shadow active">
-                        <span class="freight-icon">
-                            <svg width="29" height="28"><use xlink:href="#air-freight-icon"></use></svg> 
-                        </span>
-                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Full Truckload (FTL) & Less Than Truckload (LTL)</a></h5>
-                        <p class="mb-0  service-3-text">Efficient shipping for large and small loads, maximizing space and minimizing costs.</p>
+            <div class="row">
+                <div class="col-md-6 pt-5">
+                    <div class="d-flex justify-content-center align-items-center gap-20">
+                        <div class="border-10 wow fadeInUp fadeInTop d-flex justify-content-center align-items-center" style="width: 100%; height: 100%; position: relative;">
+                            <div style="position: absolute; bottom: 0; right: 0; width: 200px; height: auto; background-color: rgba(163, 80, 72, 0.8); padding: 20px;">
+                                <div class="text-center" style="z-index: 1;">
+                                    <h4 class="mb-0 text-black">Providing <b>BEST</b> Freight Service!</h4>
+                                </div>
+                            </div>
+                            <img src="{{ asset('assets/images/image-04.jpg') }}"  class="img-fluid">
+                        </div>
                     </div>
                 </div>
-                <!-- col -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="service-3-wrapper hover-item shadow">
-                        <span class="freight-icon">
-                            <svg width="29" height="28"><use xlink:href="#road-freight-icon"></use></svg> 
-                        </span>
-                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Dry Van & Refrigerated (Temp-Controlled) Freight </a></h5>
-                        <p class="mb-0  service-3-text">Secure transport for all goods, from everyday items to temperature-sensitive products.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="service-3-wrapper hover-item shadow">
-                        <span class="freight-icon">
-                            <svg width="28" height="28"><use xlink:href="#ware-housing-icon"></use></svg> 
-                        </span>
-                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Dedicated Freight Management Programs </a></h5>
-                        <p class="mb-0  service-3-text">Customized logistics solutions, providing dedicated resources for your unique shipping needs.</p>
-                    </div>
-                </div>
-                <!-- col -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="service-3-wrapper hover-item shadow">
-                        <span class="freight-icon">
-                            <svg width="26" height="28"><use xlink:href="#rail-freight-icon"></use></svg> 
-                        </span>
-                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Route Optimization & Load Planning</a></h5>
-                        <p class="mb-0  service-3-text">Smart planning for efficient routes and load configurations, reducing costs and transit times.</p>
-                    </div>
-                </div>
-                <!-- col -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="service-3-wrapper hover-item shadow">
-                        <span class="freight-icon">
-                            <svg width="32" height="28"><use xlink:href="#supply-chain-icon"></use></svg> 
-                        </span>
-                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Freight Consolidation & Distribution</a></h5>
-                        <p class="mb-0  service-3-text">Combining shipments for cost-effective transport, then distributing to final destinations efficiently.</p>
-                    </div>
-                </div>
-                <!-- col -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="service-3-wrapper hover-item shadow">
-                        <span class="freight-icon">
-                            <svg width="28" height="28"><use xlink:href="#ware-housing-icon"></use></svg> 
-                        </span>
-                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Cross-Border Logistics (Canada – U.S.) </a></h5>
-                        <p class="mb-0  service-3-text">Seamless transport across borders, handling customs and regulations for smooth delivery.</p>
-                    </div>
-                </div>
-                <!-- col -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="service-3-wrapper hover-item shadow">
-                        <span class="freight-icon">
-                            <svg width="29" height="28"><use xlink:href="#ocean-freight-icon"></use></svg> 
-                        </span>
-                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Expedited & Time-Critical Shipments</a></h5>
-                        <p class="mb-0  service-3-text">Fast, reliable delivery for urgent shipments, ensuring deadlines are met every time.</p>
-                    </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center flex-column gap-20 pt-5">
+                    <img src="{{ asset('assets/images/logo.png') }}" alt="">
+                    <h5 class="text-primary">YOUR TRUSTED FREIGHT PARTNER!</h2>
+                    <p class="mb-0 text-center" style="font-size: 24px;">We appreciate your trust greatly! Our clients choose us and our services because they know we’re the best.</p>
                 </div>
             </div>
-            <!-- row -->
         </div>
         <!-- container -->
     </div>				
@@ -207,122 +143,213 @@
 <!--Service Section ======================-->
 
 
-
-<!--CTA Section ======================-->
-<section class="section-cta cta-1 mb-60 mb-lg-100 mb-xxl-120">
-    <div class="cta-wrapper text-bg-dark py-60 py-lg-100 py-xxl-120" data-bs-theme="dark">
+<!--Service Section ======================-->
+<section class="section-service service-3 pb-lg-100 pb-xxl-120 hover-element">
+    <div class="bg-custom-light py-60 py-lg-100 py-xxl-120">
         <div class="container">
-            <div class="row align-items-center justify-content-lg-between gy-40">
-                <div class="col-lg-7">
-                    <h3 class="mb-0 cta-heading">Delivering <span class="text-primary">Excellence</span> Your Premier Transport Agency</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>WHAT WE DO</h3>
+                    <p><strong>We are the best at transportation</strong></p>
+                    <hr>
+                    <p style="font-size: 20px;">
+                        At <b>SHIPWISE</b> Fright Inc, we excel in transportation services. We are committed to turning your ideas into successful and profitable projects.
+                    </p>
                 </div>
-                <!-- col-7 -->
+                <div class="col-md-4">
+                    <h3>&nbsp;</h3>
+                    <p><strong>&nbsp;</strong></p>
+                    <hr>
+                    <p style="font-size: 20px;">
+                        <b>SHIPWISE Freight Inc</b> is a dynamic and customer-focused freight transportation company dedicated to providing superior shipping solutions to businesses across various industries.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h3>&nbsp;</h3>
+                    <p><strong>&nbsp;</strong></p>
+                    <hr>
+                    <p style="font-size: 20px;">
+                      Established with a commitment to excellence, reliability, and innovation, <b>SHIPWISE Freight Inc</b> aims to streamline logistics processes, optimize supply chains, and facilitate seamless trade for its clients. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- container -->
+    </div>				
+</section>
+<!--Service Section ======================-->
 
-                <div class="col-lg-3">
-                    <div class="d-flex justify-content-lg-end">
-                        <a href="{{ route('contact') }}" class="btn btn-secondary">Contact with us</a>
+
+<!-- Service Section ====================== -->
+<section class="section-service service-3 pb-60 pb-lg-100 pb-xxl-120 hover-element">
+    <div class="bg-custom-light py-60 py-lg-100 py-xxl-120" style="background-color: #A35048;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-center text-white">Our Core Values</h3>
+                </div>
+            </div>
+            <!-- First Row: Three Columns -->
+            <div class="row g-4 mt-4">
+                <div class="col-md-4">
+                    <div class="bg-white p-4 rounded-3 h-100">
+                        <div class="row">
+                            <div class="col-4 d-flex justify-content-center align-items-center">
+                                <img src="{{ asset('assets/images/icon-01.webp') }}" width="86" height="81" class="img-fluid" alt="Integrity Icon">
+                            </div>
+                            <div class="col-8">
+                                <h5 class="text-primary">Integrity</h5>
+                                <p class="mb-0 text-black">We uphold the highest ethical standards in all our interactions and transactions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="bg-white p-4 rounded-3 h-100">
+                        <div class="row">
+                            <div class="col-4 d-flex justify-content-center align-items-center">
+                                <img src="{{ asset('assets/images/icon-02.webp') }}" width="86" height="81" class="img-fluid" alt="Customer Focus Icon">
+                            </div>
+                            <div class="col-8">
+                                <h5 class="text-primary">Customer Focus</h5>
+                                <p class="mb-0 text-black">We prioritize the needs and satisfaction of our clients, striving to exceed their expectations at every opportunity.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="bg-white p-4 rounded-3 h-100">
+                        <div class="row">
+                            <div class="col-4 d-flex justify-content-center align-items-center">
+                                <img src="{{ asset('assets/images/icon-03.webp') }}" width="86" height="81" class="img-fluid" alt="Innovation Icon">
+                            </div>
+                            <div class="col-8">
+                                <h5 class="text-primary">Innovation</h5>
+                                <p class="mb-0 text-black">We embrace innovation and leverage cutting-edge technology to optimize processes and deliver value-added solutions.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- row -->
+            <!-- Second Row: Three Columns -->
+            <div class="row g-4 mt-4">
+                <div class="col-md-4">
+                    <div class="bg-white p-4 rounded-3 h-100">
+                        <div class="row">
+                            <div class="col-4 d-flex justify-content-center align-items-center">
+                                <img src="{{ asset('assets/images/icon-04.webp') }}" width="86" height="81" class="img-fluid" alt="Reliability Icon">
+                            </div>
+                            <div class="col-8">
+                                <h5 class="text-primary">Reliability</h5>
+                                <p class="mb-0 text-black">We are committed to reliability, consistency, and timeliness in all aspects of our operations.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="bg-white p-4 rounded-3 h-100">
+                        <div class="row">
+                            <div class="col-4 d-flex justify-content-center align-items-center">
+                                <img src="{{ asset('assets/images/icon-05.webp') }}" width="86" height="81" class="img-fluid" alt="Teamwork Icon">
+                            </div>
+                            <div class="col-8">
+                                <h5 class="text-primary">Teamwork</h5>
+                                <p class="mb-0 text-black">We foster a culture of collaboration, respect, and empowerment, recognizing that our team is our greatest asset.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="bg-white p-4 rounded-3 h-100">
+                        <div class="row">
+                            <div class="col-4 d-flex justify-content-center align-items-center">
+                                <img src="{{ asset('assets/images/icon-06.webp') }}" width="86" height="81" class="img-fluid" alt="Sustainability Icon">
+                            </div>
+                            <div class="col-8">
+                                <h5 class="text-primary">Sustainability</h5>
+                                <p class="mb-0 text-black">We are dedicated to environmentally responsible practices and sustainable business operations.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- container -->
     </div>
-    <!-- cta-wrapper -->
 </section>
-<!--CTA Section ======================-->
+<!-- Service Section ====================== -->
 
 
-
-
-<!--Faq Section ======================-->
-<section class="section-faq faq-1">	
-    <div class="bg-custom-light py-60 py-lg-100 py-xxl-120">
-        <div class="container">
-            <div class="mb-40">
-                <h6 class="mb-10 text-primary fw-medium">Our Partners</h6>
-                <h3 class="mb-0 title">Frequently Asked <span class="text-primary">Questions</span></h3>
-            </div>
-            
-            <div class="row align-items-center gx-20 gx-xl-60 gy-40 gy-lg-0">
-                <div class="col-lg-6">
-                    <div class="faq-image overflow-hidden border-10">
-                        <img src="{{ asset('assets/images/faq-image-1.jpg') }}" class="img-fluid" alt="faq-image-1">									
-                    </div>
+<!-- Address & Contact Section ====================== -->
+<section class="py-60 py-lg-100 py-xxl-120">
+    <div class="container">
+        <div class="row g-4">
+            <!-- Left Column - Address & Map -->
+            <div class="col-md-6 pe-lg-5 mt-5">
+                <div class="mb-5">
+                    <h5 class="text-primary mb-4">Head Office: Canada</h3>
+                    <p class="mb-4" style="font-size: 20px;">
+                        SHIPWISE FREIGHT INC 5800 Ambler Dr Mississauga, ON L4W 4J4
+                    </p>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.2402333494897!2d-79.64848072459714!3d43.64316995308057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b397ff43b2239%3A0x260346c3345964a0!2s5800%20Ambler%20Dr!5e0!3m2!1sen!2s!4v1748107808931!5m2!1sen!2s" 
+                        width="100%" 
+                        height="150" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                 </div>
-                <!-- col-5 -->
-                <div class="col-lg-6">
-                    <div class="faq-accordion">
-                        <div class="accordion" id="faq-1-accordion">
-                            <div class="accordion-item wow fadeIn" data-wow-delay="150ms" data-wow-duration="1.2s">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button d-flex justify-content-between align-items-center " type="button" data-bs-toggle="collapse" data-bs-target="#itemOne" aria-expanded="true" aria-controls="itemOne">
-                                        <span class="accordion-title fs-5 fw-semibold mb-0">How do I request a quote?</span>
-                                        <span class="accordion-icon"></span>													
-                                    </button>
-                                </h2>
-                                <div id="itemOne" class="accordion-collapse collapse show" data-bs-parent="#faq-1-accordion">
-                                    <p class="accordion-body mb-0">
-                                        Simply fill out our online quote request with details about your shipment, including origin, destination, dimensions, and weight. Once we receive your request, one our logistics experts will contact you with a customized.
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- accordion-item -->
 
-                            <div class="accordion-item wow fadeIn" data-wow-delay="300ms" data-wow-duration="1.2s">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button d-flex justify-content-between align-items-center collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itemTwo" aria-expanded="false" aria-controls="itemTwo">
-                                        <span class="accordion-title fs-5 fw-semibold mb-0">What are your delivery times?</span>
-                                        <span class="accordion-icon"></span>													
-                                    </button>
-                                </h2>
-                                <div id="itemTwo" class="accordion-collapse collapse" data-bs-parent="#faq-1-accordion">
-                                    <p class="accordion-body mb-0">
-                                        Simply fill out our online quote request with details about your shipment, including origin, destination, dimensions, and weight. Once we receive your request, one our logistics experts will contact you with a customized.
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- accordion-item -->
+                <div class="mb-5">
+                    <h5 class="text-primary mb-4">USA Office Address</h3>
+                    <p class="mb-4" style="font-size: 20px;">
+                        SHIPWISE FREIGHT LLC 5900 Balcones DR STE 100 Austin TX 78731
+                    </p>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.330227978764!2d-97.75752952528049!3d30.3415635044337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cae2f96fffff%3A0x893fa7795b7d5f91!2s5900%20Balcones%20Dr%20Suit%20100%2C%20Austin%2C%20TX%2078731%2C%20USA!5e0!3m2!1sen!2s!4v1748108298393!5m2!1sen!2s" 
+                        width="100%" 
+                        height="150"  
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
 
-                            <div class="accordion-item wow fadeIn" data-wow-delay="450ms" data-wow-duration="1.2s">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button d-flex justify-content-between align-items-center collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itemThree" aria-expanded="false" aria-controls="itemThree">
-                                        <span class="accordion-title fs-5 fw-semibold mb-0">How do I request a quote?</span>
-                                        <span class="accordion-icon"></span>													
-                                    </button>
-                                    
-                                </h2>
-                                <div id="itemThree" class="accordion-collapse collapse" data-bs-parent="#faq-1-accordion">
-                                    <p class="accordion-body mb-0">
-                                        Simply fill out our online quote request with details about your shipment, including origin, destination, dimensions, and weight. Once we receive your request, one our logistics experts will contact you with a customized.
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- accordion-item -->
-
-                            <div class="accordion-item wow fadeIn" data-wow-delay="600ms" data-wow-duration="1.2s">
-                                <h2 class="accordion-header">
-                                <button class="accordion-button d-flex justify-content-between align-items-center collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itemFour" aria-expanded="false" aria-controls="itemFour">
-                                    <span class="accordion-title fs-5 fw-semibold mb-0">What measures do you take to ensure the safety of my cargo?</span>
-                                    <span class="accordion-icon"></span>												   
-                                </button>
-                                </h2>
-                                <div id="itemFour" class="accordion-collapse collapse" data-bs-parent="#faq-1-accordion">
-                                    <p class="accordion-body mb-0">
-                                        Simply fill out our online quote request with details about your shipment, including origin, destination, dimensions, and weight. Once we receive your request, one our logistics experts will contact you with a customized.
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- accordion-item -->									
+            <!-- Right Column - Contact Form -->
+            <div class="col-md-6 mt-5">
+                <div class="bg-light p-4 p-lg-5 rounded-4">
+                    <h3 class="text-primary mb-4">Contact Us</h3>
+                    <form class="d-flex flex-column gap-3">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control form-control-lg" id="name" required>
                         </div>
-                        <!-- .accordion -->
-                    </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email *</label>
+                            <input type="email" class="form-control form-control-lg" id="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Telephone *</label>
+                            <input type="tel" class="form-control form-control-lg" id="phone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea class="form-control form-control-lg" id="message" rows="4" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-lg mt-3">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>
-        <!-- container -->
-    </div>		
-    <!-- bg-custom-light -->
+    </div>
 </section>
-<!--Faq Section ======================-->
+<!-- Address & Contact Section ======================== -->
 @endsection

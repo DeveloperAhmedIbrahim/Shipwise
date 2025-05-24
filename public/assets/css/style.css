@@ -28793,4 +28793,55 @@ textarea {
   }
 }
 
+.section-hero {
+  min-height: 100vh;   /* at least full-screen, but grows if needed */
+  height: auto;        /* so content never gets cut off */
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center; /* vertical-center your text */
+}
+
+
+@media (max-width: 768px) {
+  .section-hero {
+    height: 50vh;        /* let it size to content */
+  }
+}
+
+
+  #heroVideo {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 1;
+  }
+
+  .hero-overlay {
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero-overlay::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
+  }
+
+  /* Optional custom styling */
+#soundConsent button {
+  backdrop-filter: blur(2px);
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: all 0.3s ease;
+}
+
+#soundConsent button:hover {
+  background-color: rgba(255, 255, 255, 1);
+  transform: scale(1.1);
+}
+
 /*# sourceMappingURL=style.css.map */

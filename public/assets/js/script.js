@@ -544,4 +544,25 @@
       });
     });
   }
+
+
+// Updated JavaScript with icon toggle
+function enableSound() {
+  const video = document.getElementById('heroVideo');
+  const consent = document.getElementById('soundConsent');
+  const icon = consent.querySelector('i');
+  
+  try {
+    video.muted = !video.muted;
+    icon.classList.toggle('bi-volume-mute');
+    icon.classList.toggle('bi-volume-up');
+    
+    if(!video.muted) {
+      consent.classList.add('d-none');
+    }
+  } catch(e) {
+    alert('Please interact with the page first!');
+  }
+}
+
   // =================  Back-To-Top =============

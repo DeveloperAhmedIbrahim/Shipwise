@@ -1,75 +1,34 @@
 @extends('layout')
 @section('title', 'Home')
 @section('content')
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<section class="section-hero mb-60 mb-lg-100 mb-xxl-120 position-relative">
+  <!-- Sound Toggle Button -->
+  <div id="soundConsent" class="position-absolute bottom-0 end-0 mb-3 me-3 z-3">
+    <button 
+      class="btn btn-light btn-sm rounded-circle p-2 shadow-sm" 
+      onclick="enableSound()"
+      style="width: 40px; height: 40px;"
+    >
+      <i class="bi bi-volume-mute fs-5"></i>
+    </button>
+  </div>
 
-<style>
-.section-hero {
-  min-height: 100vh;   /* at least full-screen, but grows if needed */
-  height: auto;        /* so content never gets cut off */
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  align-items: center; /* vertical-center your text */
-}
-
-
-@media (max-width: 768px) {
-  .section-hero {
-    height: 50vh;        /* let it size to content */
-  }
-}
-
-
-  #heroVideo {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    object-fit: cover;
-    object-position: center;
-    z-index: 1;
-  }
-
-  .hero-overlay {
-    position: relative;
-    z-index: 2;
-  }
-
-  .hero-overlay::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0,0,0,0.4);
-    z-index: 1;
-  }
-</style>
-
-<section class="section-hero mb-60 mb-lg-100 mb-xxl-120">
   <video
     id="heroVideo"
     autoplay
     muted
     loop
     playsinline
+    class="w-100 h-auto"
+    style="object-fit: cover; min-height: 600px;"
   >
     <source src="{{ asset('assets/videos/SHIPWISE-INTRO-VIDEO.mp4') }}" type="video/mp4">
-    <!-- fallback image: -->
     <img src="{{ asset('assets/images/about-image-2.jpg') }}" alt="Hero fallback" class="w-100 h-auto">
   </video>
 
-  <div class="hero-overlay">
-    <div class="hero-wrapper parallax position-relative text-bg-dark" data-bs-theme="dark">
-      <div class="container">
-        <div class="hero-inner d-flex flex-column gap-30 text-center text-md-start">
-          <!-- your existing hero content -->
-        </div>
-      </div>
-    </div>
-  </div>
+  <!-- Your existing overlay content -->
 </section>
-<!--Hero Section ======================-->
-
-
-
 
 
 
