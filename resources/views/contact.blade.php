@@ -78,21 +78,27 @@
             <div class="col-lg-7 col-xxl-8">
                 <div class="submit-form-wrapper bg-custom-light wow fadeIn" data-wow-duration="1.7s">
                     <h3 class="mb-40 text-lg-center">Get In Touch</h3>
-                    <form id="contactForm" class="submit-form row g-30">
+                    <form onsubmit="submission(event, '{{ route('contact') }}')" class="submit-form row g-30">
+                        @csrf
                         <div class="col-md-6">										
-                            <input type="text" class="form-control" id="InputName1" name="InputName" placeholder="Your Name" required="">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+                            <span class="text-danger error-field error-name">&nbsp;</span>
                         </div>					
                         <div class="col-md-6">
-                            <input type="email" class="form-control" id="InputEmail1" name="InputEmail" placeholder="Your Email" required="">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+                            <span class="text-danger error-field error-email">&nbsp;</span>
                         </div>		
                         <div class="col-md-6">
-                            <input type="text" class="form-control" id="InputNumber1" name="InputNumber" placeholder="Phone Number" required="">
+                            <input type="text" class="form-control" id="contact" name="contact" placeholder="Contact Number">
+                            <span class="text-danger error-field error-contact">&nbsp;</span>
                         </div>
                         <div class="col-md-6">
-                            <input type="text" class="form-control" id="InputCompany1" name="InputCompany" placeholder="Company Name">
+                            <input type="text" class="form-control" id="company" name="company" placeholder="Company Name">
+                            <span class="text-danger error-field error-company">&nbsp;</span>
                         </div>
                         <div class="col-12">
-                            <textarea class="form-control" id="InputMessage1" name="InputMessage" placeholder="Your Message" rows="3"></textarea>
+                            <textarea class="form-control" id="message" name="message" placeholder="Your Message" rows="3"></textarea>
+                            <span class="text-danger error-field error-message">&nbsp;</span>
                         </div>		
                         <div class="col-12">									
                             <button type="submit" class="btn btn-primary w-100">Submit Now</button>																	
@@ -123,7 +129,7 @@
             <div class="row align-items-center gx-20 gx-xl-60 gy-40 gy-lg-0">
                 <div class="col-lg-6">
                     <div class="faq-image overflow-hidden border-10">
-                        <img src="{{ asset('assets/images/section-image-1.jpg') }}" class="img-fluid" alt="section-image-1">									
+                        <img src="{{ asset('assets/images/image-04.jpg') }}" class="img-fluid" alt="section-image-1">									
                     </div>
                 </div>
                 <!-- col-5 -->
@@ -139,57 +145,21 @@
                                 </h2>
                                 <div id="itemOne" class="accordion-collapse collapse show" data-bs-parent="#faq-1-accordion">
                                     <p class="accordion-body mb-0">
-                                        Simply fill out our online quote request with details about your shipment, including origin, destination, dimensions, and weight. Once we receive your request, one our logistics experts will contact you with a customized.
+                                        Need a reliable partner to move your freight? We’re here to deliver efficient, cost-effective logistics solutions tailored to your needs. As a trusted freight forwarder and asset-based transportation provider, we offer full-service shipping solutions across North America.
+                                        <br>
+                                        To request a quote, simply fill out the form below with your shipment details, including:
+                                        <ul class="ms-4">
+                                            <li>Origin and destination</li>
+                                            <li>Type of freight (e.g., FTL, LTL, reefer, flatbed, etc.)</li>
+                                            <li>Dimensions and weight</li>
+                                            <li>Any special handling requirements</li>
+                                        </ul>
+                                        <br>
+                                        Our logistics team will review your request and get back to you promptly with a competitive, customized rate. Whether you’re shipping one load or managing ongoing freight needs, we’re ready to support your business.
+                                        <strong>Fast</strong>. <strong>Reliable</strong>. On <strong>Time</strong>. Let’s move your freight.
                                     </p>
                                 </div>
                             </div>
-                            <!-- accordion-item -->
-
-                            <div class="accordion-item wow fadeIn" data-wow-delay="300ms" data-wow-duration="1.2s">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button d-flex justify-content-between align-items-center collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itemTwo" aria-expanded="false" aria-controls="itemTwo">
-                                        <span class="accordion-title fs-5 fw-semibold mb-0">What are your delivery times?</span>
-                                        <span class="accordion-icon"></span>													
-                                    </button>
-                                </h2>
-                                <div id="itemTwo" class="accordion-collapse collapse" data-bs-parent="#faq-1-accordion">
-                                    <p class="accordion-body mb-0">
-                                        Simply fill out our online quote request with details about your shipment, including origin, destination, dimensions, and weight. Once we receive your request, one our logistics experts will contact you with a customized.
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- accordion-item -->
-
-                            <div class="accordion-item wow fadeIn" data-wow-delay="450ms" data-wow-duration="1.2s">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button d-flex justify-content-between align-items-center collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itemThree" aria-expanded="false" aria-controls="itemThree">
-                                        <span class="accordion-title fs-5 fw-semibold mb-0">How do I request a quote?</span>
-                                        <span class="accordion-icon"></span>													
-                                    </button>
-                                    
-                                </h2>
-                                <div id="itemThree" class="accordion-collapse collapse" data-bs-parent="#faq-1-accordion">
-                                    <p class="accordion-body mb-0">
-                                        Simply fill out our online quote request with details about your shipment, including origin, destination, dimensions, and weight. Once we receive your request, one our logistics experts will contact you with a customized.
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- accordion-item -->
-
-                            <div class="accordion-item wow fadeIn" data-wow-delay="600ms" data-wow-duration="1.2s">
-                                <h2 class="accordion-header">
-                                <button class="accordion-button d-flex justify-content-between align-items-center collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itemFour" aria-expanded="false" aria-controls="itemFour">
-                                    <span class="accordion-title fs-5 fw-semibold mb-0">What measures do you take to ensure the safety of my cargo?</span>
-                                    <span class="accordion-icon"></span>												   
-                                </button>
-                                </h2>
-                                <div id="itemFour" class="accordion-collapse collapse" data-bs-parent="#faq-1-accordion">
-                                    <p class="accordion-body mb-0">
-                                        Simply fill out our online quote request with details about your shipment, including origin, destination, dimensions, and weight. Once we receive your request, one our logistics experts will contact you with a customized.
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- accordion-item -->									
                         </div>
                         <!-- .accordion -->
                     </div>
@@ -207,72 +177,85 @@
     <div class="container">
         <div class="call-request-inner shadow">
             <div class="row g-0 align-items-center">
-                <div class="col-lg-6 col-xl-5">
-                    <div class="call-request-image mb-3 mb-lg-0">
-                        <img src="{{ asset('assets/images/call-request-image-2.jpg') }}" class="img-fluid" alt="call-request-image-2">									
-                    </div>
-                </div>
                 <!-- col -->
-                <div class="col-lg-6 col-xl-7">
+                <div class="col-lg-12 col-xl-12">
                     <div class="p-3 p-lg-40 p-xl-5">
-                        <h3 class="mb-40">Request Quote</h3>
-                        <form id="callRequestForm" class="contact-form row g-30">
+                        <h3 class="mb-20">Request Quote</h3>
+                        <p>
+                            Looking for a dependable logistics partner? Let us provide you with a customized freight solution. 
+                            We make transportation simple, efficient, and reliable — so you can focus on your business.
+                        </p>
+                        <form onsubmit="submission(event, '{{ route('quote') }}')" class="contact-form row g-30">
+                            @csrf
                             <div class="col-lg-6">
                                 <div class="position-relative">
-                                    <label for="InputName-2" class="form-label">Name</label>
-                                    <input type="text" class="form-control form-control-lg" name="InputName" id="InputName-2" placeholder="Name *" required>
-                                    <span class="form-icon form-name-icon">											
-                                        <svg width="16" height="16"><use xlink:href="#form-name-icon"></use></svg> 
-                                    </span>
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control form-control-lg" name="name" id="name" placeholder="Name *">
+                                    <span class="text-danger error-field error-name">&nbsp;</span>
                                 </div>											
                             </div>	
                             <div class="col-lg-6">
                                 <div class="position-relative">
-                                    <label for="InputEmail-2" class="form-label">Email</label>
-                                    <input type="email" class="form-control form-control-lg" name="InputEmail" id="InputEmail-2" placeholder="Email *" required>
-                                    <span class="form-icon form-email-icon">											
-                                        <svg width="16" height="14"><use xlink:href="#form-email-icon"></use></svg> 
-                                    </span>
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control form-control-lg" name="email" id="email" placeholder="Email *">
+                                    <span class="text-danger error-field error-email">&nbsp;</span>
+                                </div>											
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="position-relative">
+                                    <label for="contact" class="form-label">Contact</label>
+                                    <input type="text" class="form-control form-control-lg" name="contact" id="contact" placeholder="Contact *">
+                                    <span class="text-danger error-field error-contact">&nbsp;</span>
                                 </div>											
                             </div>	
                             <div class="col-lg-6">
-                                <label for="freightSelect" class="form-label">State</label>
-                                <select id="freightSelect" class="form-select" aria-label="select">
-                                    <option selected>Select Freight</option>
-                                    <option value="1">Air Freight</option>
-                                    <option value="2">Road Freight</option>
-                                    <option value="3">Ocean Freight</option>
-                                    <option value="3">Rail Freight</option>
-                                </select>											
+                                <label for="type" class="form-label">Freight Type</label>
+                                <select id="type" class="form-select" aria-label="select" name="type">
+                                    <option value="" selected>Select Freight</option>
+                                    <option value="FTL">FTL</option>
+                                    <option value="LTL">LTL</option>
+                                    <option value="Reefer">Reefer</option>
+                                    <option value="Flatbed">Flatbed</option>
+                                    <option value="Other">Other</option>
+                                </select>	
+                                <span class="text-danger error-field error-type">&nbsp;</span>
                             </div>										
                             <div class="col-lg-6">
                                 <div class="position-relative">
-                                    <label for="InputEmail-2" class="form-label">Distance</label>
-                                    <input type="text" class="form-control form-control-lg" name="InputDistance" id="InputDistance" placeholder="Distance/Km *" required>
-                                    <span class="form-icon form-location-icon">											
-                                        <svg width="14" height="18"><use xlink:href="#form-location-icon"></use></svg> 
-                                    </span>
+                                    <label for="origin" class="form-label">Origin</label>
+                                    <input type="text" class="form-control form-control-lg" name="origin" id="origin" placeholder="Origin *">
+                                    <span class="error text-danger error-field error-origin">&nbsp;</span>
                                 </div>											
                             </div>
                             <div class="col-lg-6">
                                 <div class="position-relative">
-                                    <label for="InputWeight" class="form-label">Weight</label>
-                                    <input type="text" class="form-control form-control-lg" name="InputWeight" id="InputWeight" placeholder="Kilo *" required>
-                                    <span class="form-icon form-weight-icon">											
-                                        <svg width="17" height="16"><use xlink:href="#form-weight-icon"></use></svg> 
-                                    </span>
+                                    <label for="destination" class="form-label">Destination</label>
+                                    <input type="text" class="form-control form-control-lg" name="destination" id="destination" placeholder="Destination *">
+                                    <span class="error text-danger error-field error-destination">&nbsp;</span>
                                 </div>											
                             </div>
                             <div class="col-lg-6">
                                 <div class="position-relative">
-                                    <label for="InputEmail-2" class="form-label">Height</label>
-                                    <input type="text" class="form-control form-control-lg" name="InputHeight" id="InputHeight" placeholder="Centimeter *" required>
-                                    <span class="form-icon form-height-icon">											
-                                        <svg width="16" height="16"><use xlink:href="#form-height-icon"></use></svg> 
-                                    </span>
+                                    <label for="weight" class="form-label">Weight</label>
+                                    <input type="text" class="form-control form-control-lg" name="weight" id="weight" placeholder="Weight *">
+                                    <span class="error text-danger error-field error-weight">&nbsp;</span>
                                 </div>											
-                            </div>					
-                            <div class="col-12">
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="position-relative">
+                                    <label for="dimensions" class="form-label">Dimensions</label>
+                                    <input type="text" class="form-control form-control-lg" name="dimensions" id="dimensions" placeholder="Dimensions">
+                                    <span class="error text-danger error-field error-dimensions">&nbsp;</span>
+                                </div>											
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="position-relative">
+                                    <label for="requirement" class="form-label">Special Handling Requirement</label>
+                                    <textarea class="form-control form-control-lg" name="requirement" id="requirement" placeholder="If you have extra requirements feel free to inform us." rows="3"></textarea>
+                                    <span class="error text-danger error-field error-requirement">&nbsp;</span>
+                                </div>											
+                            </div>
+                            <div class="col-4">
                                 <div>
                                     <button type="submit" class="btn btn-primary w-100">Submit Request</button>
                                 </div>								
@@ -291,35 +274,4 @@
 </section>
 <!--Call Request Section ======================-->
 
-
-
-<!--CTA Section ======================-->
-<section class="section-cta cta-2">
-    <div class="cta-wrapper text-bg-dark py-60 py-lg-100 py-xxl-120" data-bs-theme="dark">
-        <div class="container">
-            <div class="row align-items-center justify-content-lg-between gy-40">
-                <div class="col-lg-7">
-                    <h3 class="mb-0 cta-heading">Delivering <span class="text-primary">Excellence</span> Your Premier Transport Agency</h3>
-                </div>
-                <!-- col-7 -->
-
-                <div class="col-lg-3">
-                    <div class="d-flex justify-content-lg-end">
-                        <a href="{{ route('contact') }}" class="btn btn-primary">Contact with us</a>
-                    </div>
-                </div>
-            </div>
-            <!-- row -->
-        </div>
-        <!-- container -->
-        <div class="cta-image cta-image-tra">
-            <img src="{{ asset('assets/images/cta-image-tra.png') }}" class="img-fluid" alt="cta-image-tra">
-        </div>
-        <div class="cta-image cta-image-tra-2">
-            <img src="{{ asset('assets/images/cta-image-tra-2.png') }}" class="img-fluid" alt="cta-image-tra-2">
-        </div>
-    </div>
-    <!-- cta-wrapper -->
-</section>
-<!--CTA Section ======================-->
 @endsection

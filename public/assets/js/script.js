@@ -566,3 +566,118 @@ function enableSound() {
 }
 
   // =================  Back-To-Top =============
+
+window.onload = () => {
+    loading(false);
+}
+
+// Custom JS for the logistics page
+const url = document.getElementById('url').value;
+
+async function submission(event, route) {
+  event.preventDefault();
+  loading(true);
+  const form = event.target;
+  const data = new FormData(form);
+  clearFormErrors(form);
+  try {
+      const response = await fetch(route, {
+          headers: {
+              'accept': 'application/json'
+          },
+          method: 'POST',
+          body: data
+      });
+
+      const result = await response.json();
+      loading(false);
+
+      if (response.ok) {
+          if(result.status) {
+              toastrNotification('success', result.data.message);
+              form.reset(); // Reset the form here
+              if(result.data.redirectUrl !== null) {
+                  window.location.href = result.data.redirectUrl;
+              }
+          } else {
+              let errors = result.errors;
+              errors.forEach(error => {
+                  form.querySelector(`.error-${extractFieldName(error)}`).innerText = error;
+              });
+          }
+      } else {
+          toastrNotification('error', result.message);
+      }
+  } catch (error) {
+      console.log(error.message);
+  }
+}
+
+const loading = (status) => {
+    let preloader = document.getElementById("preloader");
+    if(status === true) {
+        preloader.style.display = 'flex';
+        setTimeout(function() {
+            preloader.style.opacity = 1;
+        }, 200);
+    } else if(status === false) {
+        preloader.style.opacity = 0;
+        setTimeout(function() {
+            preloader.style.display = 'none';
+        }, 200);
+    }
+}
+
+const clearFormErrors = (form) => {
+    const errorFields = form.querySelectorAll('span.error-field');
+    errorFields.forEach((errorField) => {
+        errorField.innerHTML = '&nbsp;';
+    });
+}
+
+const toastrConfig = toastr.options = {
+    maxOpened: 1,
+    autoDismiss: true,
+    closeButton: false,
+    debug: false,
+    newestOnTop: true,
+    progressBar: true,
+    positionClass: "toast-top-right",
+    preventDuplicates: false,
+    onclick: null,
+    rtl: false,
+    showDuration: 300,
+    hideDuration: 1000,
+    timeOut: 5000,
+    extendedTimeOut: 1000,
+    showEasing: "swing",
+    hideEasing: "linear",
+    showMethod: "fadeIn",
+    hideMethod: "fadeOut",
+    tapToDismiss: false,
+};
+
+
+const toastrNotification = (type, message) => {
+    toastr[type](message);
+}
+
+function extractFieldName(str) {
+    let fieldName = "";
+    const regex = /The\s+((?:\w+\s+)+)\s*field/;
+    const match = str.match(regex);
+    if (match) {
+        const words = match[1].trim();
+        const camelCase = words
+            .split(/\s+/)
+            .map((word, index) => {
+                if (index === 0) {
+                    return word.toLowerCase();
+                }
+                return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+            })
+            .join("");
+        fieldName = camelCase;
+    }
+    return fieldName;
+}

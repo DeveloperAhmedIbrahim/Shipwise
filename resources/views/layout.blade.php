@@ -4,9 +4,19 @@
 		<meta charset="utf-8">
         <meta name="theme-color"  content="#253b2f">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Shipwise Freight Inc. We don’t just move freight — we engineer smarter, faster, and more dependable transportation solutions that empower your supply chain.">
+		<link rel="icon" href="{{ asset('assets/images/fav-icon/favicon.png') }}" type="image/x-icon">
+		<link rel="apple-touch-icon" href="{{ asset('assets/images/fav-icon/favicon.png') }}" >
 		<title>SHIPWISE - @yield('title')</title>
-		<link rel="shortcut icon" type="images/png" href="{{ asset('assets/images/fav-icon/favicon.png') }}">
+		
+		<meta name="title" content="SHIPWISE - @yield('title')">
+		<meta name="description" content="Shipwise Freight Inc. We don’t just move freight — we engineer smarter, faster, and more dependable transportation solutions that empower your supply chain.">
+
+		<!-- Open Graph / Facebook / WhatsApp -->
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="{{ url('/') }}/">
+		<meta property="og:title" content="SHIPWISE - @yield('title')">
+		<meta property="og:description" content="Shipwise Freight Inc. We don’t just move freight — we engineer smarter, faster, and more dependable logistics.">
+		<meta property="og:image" content="{{ asset('assets/images/fav-icon/favicon.png') }}"> <!-- Use absolute path -->
 
 		<!-- Google fonts -->	
 		<link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -22,10 +32,14 @@
 		<link rel="stylesheet" href="{{ asset('assets/css/leaflet.css') }}">
 		<link rel="stylesheet" href="{{ asset('assets/css/leaflet-routing-machine.css') }}">
 		<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+		<link rel="stylesheet" href="{{ asset('assets/css/toastr.css') }}">
 	</head>
 
 
 	<body>
+		<div id="preloader">
+            <img src="{{ asset('assets/images/loading.gif') }}" width="100" height="100" alt="Loading...">
+        </div>
 		<div class="wrapper">
 			<!--Header Section ======================-->
 			<header class="section-header header-1 sticky-navbar">				
@@ -477,6 +491,8 @@
 		</div>
 		<!-- pages -->
 	
+		<input type="hidden" id="url" value="{{ url('/') }}">
+
 		<script src="{{ asset('assets/js/jquery-3.7.0.min.js') }}"></script>	
 		<script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>	
 		<script src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>	
@@ -492,6 +508,7 @@
 			
 		<script src="{{ asset('assets/js/jquery.progressScroll.min.js') }}"></script>	
 		<script src="{{ asset('assets/js/odometer.js') }}"></script>	
+		<script src="{{ asset('assets/js/toastr.js') }}"></script>	
 		<script src="{{ asset('assets/js/script.js') }}"></script>	
 
 	</body>

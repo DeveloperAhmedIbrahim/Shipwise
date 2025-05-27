@@ -126,14 +126,16 @@
                                     <h4 class="mb-0 text-black">Providing <b>BEST</b> Freight Service!</h4>
                                 </div>
                             </div>
-                            <img src="{{ asset('assets/images/image-04.jpg') }}"  class="img-fluid">
+                            <img src="{{ asset('assets/images/image-12.jpg') }}"  class="img-fluid">
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 d-flex justify-content-center align-items-center flex-column gap-20 pt-5">
                     <img src="{{ asset('assets/images/logo.png') }}" alt="">
                     <h5 class="text-primary">YOUR TRUSTED FREIGHT PARTNER!</h2>
-                    <p class="mb-0 text-center" style="font-size: 24px;">We appreciate your trust greatly! Our clients choose us and our services because they know we’re the best.</p>
+                    <p class="mb-0 text-center" style="font-size: 24px;">At SHIPWISE Freight Inc, “Smart logistics for smarter business” is more than just a slogan—it’s our philosophy.</p>
+                    <p>We believe that intelligent, technology-driven logistics are the backbone of modern business success. By leveraging advanced tools, data-driven insights, and industry expertise, we help companies streamline their supply chains, reduce costs, and improve delivery performance.</p>
+                    <p>Our smart logistics solutions empower businesses to operate more efficiently, make informed decisions, and stay competitive in a fast-moving marketplace. When your logistics are smart, your business becomes even smarter.</p>
                 </div>
             </div>
         </div>
@@ -153,7 +155,7 @@
                     <p><strong>We are the best at transportation</strong></p>
                     <hr>
                     <p style="font-size: 20px;">
-                        At <b>SHIPWISE</b> Fright Inc, we excel in transportation services. We are committed to turning your ideas into successful and profitable projects.
+                        At <b>SHIPWISE</b> Fright Inc, we specialize in delivering dependable, efficient, and innovative transportation solutions tailored to meet the unique needs of businesses across diverse industries.
                     </p>
                 </div>
                 <div class="col-md-4">
@@ -161,7 +163,7 @@
                     <p><strong>&nbsp;</strong></p>
                     <hr>
                     <p style="font-size: 20px;">
-                        <b>SHIPWISE Freight Inc</b> is a dynamic and customer-focused freight transportation company dedicated to providing superior shipping solutions to businesses across various industries.
+                        As a dynamic and customer-focused freight transportation company, our mission is to streamline logistics, enhance supply chain efficiency, and support the seamless movement of goods—locally and globally.
                     </p>
                 </div>
                 <div class="col-md-4">
@@ -169,7 +171,7 @@
                     <p><strong>&nbsp;</strong></p>
                     <hr>
                     <p style="font-size: 20px;">
-                      Established with a commitment to excellence, reliability, and innovation, <b>SHIPWISE Freight Inc</b> aims to streamline logistics processes, optimize supply chains, and facilitate seamless trade for its clients. 
+                        With a foundation built on excellence, reliability, and forward-thinking innovation, SHIPWISE transforms your logistical challenges into profitable, scalable opportunities. Whether you’re shipping across the country or across borders, we are your trusted partner in freight. 
                     </p>
                 </div>
             </div>
@@ -199,7 +201,7 @@
                             </div>
                             <div class="col-8">
                                 <h5 class="text-primary">Integrity</h5>
-                                <p class="mb-0 text-black">We uphold the highest ethical standards in all our interactions and transactions.</p>
+                                <p class="mb-0 text-black">We conduct every interaction and transaction with unwavering ethical standards, building trust through honesty and accountability.</p>
                             </div>
                         </div>
                     </div>
@@ -212,7 +214,7 @@
                             </div>
                             <div class="col-8">
                                 <h5 class="text-primary">Customer Focus</h5>
-                                <p class="mb-0 text-black">We prioritize the needs and satisfaction of our clients, striving to exceed their expectations at every opportunity.</p>
+                                <p class="mb-0 text-black">Our clients are at the heart of everything we do. We actively listen, respond with purpose, and aim to exceed expectations at every opportunity.</p>
                             </div>
                         </div>
                     </div>
@@ -225,7 +227,7 @@
                             </div>
                             <div class="col-8">
                                 <h5 class="text-primary">Innovation</h5>
-                                <p class="mb-0 text-black">We embrace innovation and leverage cutting-edge technology to optimize processes and deliver value-added solutions.</p>
+                                <p class="mb-0 text-black">We champion innovation, harnessing the latest technologies and forward-thinking strategies to enhance performance and create value-driven solutions.</p>
                             </div>
                         </div>
                     </div>
@@ -241,7 +243,7 @@
                             </div>
                             <div class="col-8">
                                 <h5 class="text-primary">Reliability</h5>
-                                <p class="mb-0 text-black">We are committed to reliability, consistency, and timeliness in all aspects of our operations.</p>
+                                <p class="mb-0 text-black">Consistency and dependability define our operations. We deliver on our promises—on time, every time.</p>
                             </div>
                         </div>
                     </div>
@@ -254,7 +256,7 @@
                             </div>
                             <div class="col-8">
                                 <h5 class="text-primary">Teamwork</h5>
-                                <p class="mb-0 text-black">We foster a culture of collaboration, respect, and empowerment, recognizing that our team is our greatest asset.</p>
+                                <p class="mb-0 text-black">We cultivate a collaborative environment where mutual respect, open communication, and shared goals drive collective success. Our people are our strength.</p>
                             </div>
                         </div>
                     </div>
@@ -267,7 +269,7 @@
                             </div>
                             <div class="col-8">
                                 <h5 class="text-primary">Sustainability</h5>
-                                <p class="mb-0 text-black">We are dedicated to environmentally responsible practices and sustainable business operations.</p>
+                                <p class="mb-0 text-black">We are committed to responsible growth by integrating environmentally conscious practices into every facet of our business.</p>
                             </div>
                         </div>
                     </div>
@@ -294,7 +296,7 @@
                     <iframe 
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.2402333494897!2d-79.64848072459714!3d43.64316995308057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b397ff43b2239%3A0x260346c3345964a0!2s5800%20Ambler%20Dr!5e0!3m2!1sen!2s!4v1748107808931!5m2!1sen!2s" 
                         width="100%" 
-                        height="150" 
+                        height="250" 
                         style="border:0;" 
                         allowfullscreen="" 
                         loading="lazy" 
@@ -310,7 +312,7 @@
                     <iframe 
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.330227978764!2d-97.75752952528049!3d30.3415635044337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cae2f96fffff%3A0x893fa7795b7d5f91!2s5900%20Balcones%20Dr%20Suit%20100%2C%20Austin%2C%20TX%2078731%2C%20USA!5e0!3m2!1sen!2s!4v1748108298393!5m2!1sen!2s" 
                         width="100%" 
-                        height="150"  
+                        height="250"  
                         style="border:0;" 
                         allowfullscreen="" 
                         loading="lazy" 
@@ -323,25 +325,36 @@
             <div class="col-md-6 mt-5">
                 <div class="bg-light p-4 p-lg-5 rounded-4">
                     <h3 class="text-primary mb-4">Contact Us</h3>
-                    <form class="d-flex flex-column gap-3">
+                    <form class="d-flex flex-column" onsubmit="submission(event, '{{ route('contact') }}')">
+                        @csrf
                         <div class="form-group">
                             <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control form-control-lg" id="name" required>
+                            <input type="text" class="form-control form-control-lg" id="name" name="name">
+                            <span class="error text-danger error-field error-name">&nbsp;</span>
                         </div>
                         
                         <div class="form-group">
                             <label for="email" class="form-label">Email *</label>
-                            <input type="email" class="form-control form-control-lg" id="email" required>
+                            <input type="email" class="form-control form-control-lg" id="email" name="email">
+                            <span class="error text-danger error-field error-email">&nbsp;</span>
                         </div>
                         
                         <div class="form-group">
-                            <label for="phone" class="form-label">Telephone *</label>
-                            <input type="tel" class="form-control form-control-lg" id="phone" required>
+                            <label for="phone" class="form-label">Contact *</label>
+                            <input type="text" class="form-control form-control-lg" id="contact" name="contact">
+                            <span class="error text-danger error-field error-contact">&nbsp;</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Company *</label>
+                            <input type="text" class="form-control form-control-lg" id="company" name="company">
+                            <span class="error text-danger error-field error-company">&nbsp;</span>
                         </div>
                         
                         <div class="form-group">
                             <label for="message" class="form-label">Message *</label>
-                            <textarea class="form-control form-control-lg" id="message" rows="4" required></textarea>
+                            <textarea class="form-control form-control-lg" id="message" name="message" rows="4"></textarea>
+                            <span class="error text-danger error-field error-message">&nbsp;</span>
                         </div>
                         
                         <button type="submit" class="btn btn-primary btn-lg mt-3">Submit</button>

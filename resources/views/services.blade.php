@@ -29,8 +29,8 @@
         </div>
         <!-- text-lg-center -->
         <div class="service-inner-image video-image-wrapper position-relative border-10 wow fadeInUp">
-            <img src="{{ asset('assets/images/service-video-image.jpg') }}" class="img-fluid" alt="service-video-image">
-            <a href="https://www.youtube.com/watch?v=lfDZJqSrIuk" aria-label="video-popus-icon" class="video-popup video-popup-style-1">
+            <img src="{{ asset('assets/images/image-13.png') }}" class="img-fluid" alt="service-video-image">
+            <a href="{{ asset('assets/videos/SHIPWISE-INTRO-VIDEO.mp4') }}" aria-label="video-popus-icon" class="video-popup video-popup-style-1">
                 <span class="video-icon">						
                     <svg width="24" height="30"><use xlink:href="#video-icon"></use></svg> 
                 </span>	
@@ -161,9 +161,8 @@
 <!--CTA Section ======================-->
 
 
-
 <!--Faq Section ======================-->
-<section class="section-faq faq-1">	
+<section class="section-faq faq-1 pb-60 pb-lg-100 pb-xxl-120">	
     <div class="bg-custom-light py-60 py-lg-100 py-xxl-120">
         <div class="container">
             <div class="mb-40">
@@ -173,8 +172,8 @@
             
             <div class="row align-items-center gx-20 gx-xl-60 gy-40 gy-lg-0">
                 <div class="col-lg-6">
-                    <div class="faq-image overflow-hidden border-10">									
-                        <img src="{{ asset('assets/images/faq-image-1.jpg') }}" class="img-fluid" alt="faq-image-1">									
+                    <div class="faq-image overflow-hidden border-10">
+                        <img src="{{ asset('assets/images/image-04.jpg') }}" class="img-fluid" alt="section-image-1">									
                     </div>
                 </div>
                 <!-- col-5 -->
@@ -190,56 +189,21 @@
                                 </h2>
                                 <div id="itemOne" class="accordion-collapse collapse show" data-bs-parent="#faq-1-accordion">
                                     <p class="accordion-body mb-0">
-                                        Simply fill out our online quote request with details about your shipment, including origin, destination, dimensions, and weight. Once we receive your request, one our logistics experts will contact you with a customized.
+                                        Need a reliable partner to move your freight? We’re here to deliver efficient, cost-effective logistics solutions tailored to your needs. As a trusted freight forwarder and asset-based transportation provider, we offer full-service shipping solutions across North America.
+                                        <br>
+                                        To request a quote, simply fill out the form below with your shipment details, including:
+                                        <ul class="ms-4">
+                                            <li>Origin and destination</li>
+                                            <li>Type of freight (e.g., FTL, LTL, reefer, flatbed, etc.)</li>
+                                            <li>Dimensions and weight</li>
+                                            <li>Any special handling requirements</li>
+                                        </ul>
+                                        <br>
+                                        Our logistics team will review your request and get back to you promptly with a competitive, customized rate. Whether you’re shipping one load or managing ongoing freight needs, we’re ready to support your business.
+                                        <strong>Fast</strong>. <strong>Reliable</strong>. On <strong>Time</strong>. Let’s move your freight.
                                     </p>
                                 </div>
                             </div>
-                            <!-- accordion-item -->
-
-                            <div class="accordion-item wow fadeIn" data-wow-delay="300ms" data-wow-duration="1.2s">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button d-flex justify-content-between align-items-center collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itemTwo" aria-expanded="false" aria-controls="itemTwo">
-                                        <span class="accordion-title fs-5 fw-semibold mb-0">What are your delivery times?</span>
-                                        <span class="accordion-icon"></span>													
-                                    </button>
-                                </h2>
-                                <div id="itemTwo" class="accordion-collapse collapse" data-bs-parent="#faq-1-accordion">
-                                    <p class="accordion-body mb-0">
-                                        Simply fill out our online quote request with details about your shipment, including origin, destination, dimensions, and weight. Once we receive your request, one our logistics experts will contact you with a customized.
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- accordion-item -->
-
-                            <div class="accordion-item wow fadeIn" data-wow-delay="450ms" data-wow-duration="1.2s">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button d-flex justify-content-between align-items-center collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itemThree" aria-expanded="false" aria-controls="itemThree">
-                                        <span class="accordion-title fs-5 fw-semibold mb-0">How do I request a quote?</span>
-                                        <span class="accordion-icon"></span>													
-                                    </button>												
-                                </h2>
-                                <div id="itemThree" class="accordion-collapse collapse" data-bs-parent="#faq-1-accordion">
-                                    <p class="accordion-body mb-0">
-                                        Simply fill out our online quote request with details about your shipment, including origin, destination, dimensions, and weight. Once we receive your request, one our logistics experts will contact you with a customized.
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- accordion-item -->
-
-                            <div class="accordion-item wow fadeIn" data-wow-delay="600ms" data-wow-duration="1.2s">
-                                <h2 class="accordion-header">
-                                <button class="accordion-button d-flex justify-content-between align-items-center collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#itemFour" aria-expanded="false" aria-controls="itemFour">
-                                    <span class="accordion-title fs-5 fw-semibold mb-0">What measures do you take to ensure the safety of my cargo?</span>
-                                    <span class="accordion-icon"></span>												   
-                                </button>
-                                </h2>
-                                <div id="itemFour" class="accordion-collapse collapse" data-bs-parent="#faq-1-accordion">
-                                    <p class="accordion-body mb-0">
-                                        Simply fill out our online quote request with details about your shipment, including origin, destination, dimensions, and weight. Once we receive your request, one our logistics experts will contact you with a customized.
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- accordion-item -->									
                         </div>
                         <!-- .accordion -->
                     </div>
@@ -247,8 +211,110 @@
             </div>
         </div>
         <!-- container -->
-    </div>		
-    <!-- bg-custom-light -->
+    </div>	
 </section>
 <!--Faq Section ======================-->
+
+
+<!--Call Request Section ======================-->
+<section class="section-callRequest pb-60 pb-lg-100 pb-xxl-120">
+    <div class="container">
+        <div class="call-request-inner shadow">
+            <div class="row g-0 align-items-center">
+                <!-- col -->
+                <div class="col-lg-12 col-xl-12">
+                    <div class="p-3 p-lg-40 p-xl-5">
+                        <h3 class="mb-20">Request Quote</h3>
+                        <p>
+                            Looking for a dependable logistics partner? Let us provide you with a customized freight solution. 
+                            We make transportation simple, efficient, and reliable — so you can focus on your business.
+                        </p>
+                        <form onsubmit="submission(event, '{{ route('quote') }}')" class="contact-form row g-30">
+                            @csrf
+                            <div class="col-lg-6">
+                                <div class="position-relative">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control form-control-lg" name="name" id="name" placeholder="Name *">
+                                    <span class="text-danger error-field error-name">&nbsp;</span>
+                                </div>											
+                            </div>	
+                            <div class="col-lg-6">
+                                <div class="position-relative">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control form-control-lg" name="email" id="email" placeholder="Email *">
+                                    <span class="text-danger error-field error-email">&nbsp;</span>
+                                </div>											
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="position-relative">
+                                    <label for="contact" class="form-label">Contact</label>
+                                    <input type="text" class="form-control form-control-lg" name="contact" id="contact" placeholder="Contact *">
+                                    <span class="text-danger error-field error-contact">&nbsp;</span>
+                                </div>											
+                            </div>	
+                            <div class="col-lg-6">
+                                <label for="type" class="form-label">Freight Type</label>
+                                <select id="type" class="form-select" aria-label="select" name="type">
+                                    <option value="" selected>Select Freight</option>
+                                    <option value="FTL">FTL</option>
+                                    <option value="LTL">LTL</option>
+                                    <option value="Reefer">Reefer</option>
+                                    <option value="Flatbed">Flatbed</option>
+                                    <option value="Other">Other</option>
+                                </select>	
+                                <span class="text-danger error-field error-type">&nbsp;</span>
+                            </div>										
+                            <div class="col-lg-6">
+                                <div class="position-relative">
+                                    <label for="origin" class="form-label">Origin</label>
+                                    <input type="text" class="form-control form-control-lg" name="origin" id="origin" placeholder="Origin *">
+                                    <span class="error text-danger error-field error-origin">&nbsp;</span>
+                                </div>											
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="position-relative">
+                                    <label for="destination" class="form-label">Destination</label>
+                                    <input type="text" class="form-control form-control-lg" name="destination" id="destination" placeholder="Destination *">
+                                    <span class="error text-danger error-field error-destination">&nbsp;</span>
+                                </div>											
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="position-relative">
+                                    <label for="weight" class="form-label">Weight</label>
+                                    <input type="text" class="form-control form-control-lg" name="weight" id="weight" placeholder="Weight *">
+                                    <span class="error text-danger error-field error-weight">&nbsp;</span>
+                                </div>											
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="position-relative">
+                                    <label for="dimensions" class="form-label">Dimensions</label>
+                                    <input type="text" class="form-control form-control-lg" name="dimensions" id="dimensions" placeholder="Dimensions">
+                                    <span class="error text-danger error-field error-dimensions">&nbsp;</span>
+                                </div>											
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="position-relative">
+                                    <label for="requirement" class="form-label">Special Handling Requirement</label>
+                                    <textarea class="form-control form-control-lg" name="requirement" id="requirement" placeholder="If you have extra requirements feel free to inform us." rows="3"></textarea>
+                                    <span class="error text-danger error-field error-requirement">&nbsp;</span>
+                                </div>											
+                            </div>
+                            <div class="col-4">
+                                <div>
+                                    <button type="submit" class="btn btn-primary w-100">Submit Request</button>
+                                </div>								
+                            </div>	
+                            <div class="response"></div>												  
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- row -->
+        </div>
+        <!-- call-request-inner -->
+        
+    </div>
+    <!-- container -->
+</section>
+<!--Call Request Section ======================-->
 @endsection
