@@ -64,7 +64,7 @@
                         <span class="freight-icon">
                             <svg width="29" height="28"><use xlink:href="#air-freight-icon"></use></svg> 
                         </span>
-                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Full Truckload (FTL) & Less Than Truckload (LTL)</a></h5>
+                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="javascript:void(0)" class="text-decoration-none link-hover-animation-1">Full Truckload (FTL) & Less Than Truckload (LTL)</a></h5>
                         <p class="mb-0  service-3-text">Efficient shipping for large and small loads, maximizing space and minimizing costs.</p>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                         <span class="freight-icon">
                             <svg width="29" height="28"><use xlink:href="#road-freight-icon"></use></svg> 
                         </span>
-                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Dry Van & Refrigerated (Temp-Controlled) Freight </a></h5>
+                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="javascript:void(0)" class="text-decoration-none link-hover-animation-1">Dry Van & Refrigerated (Temp-Controlled) Freight </a></h5>
                         <p class="mb-0  service-3-text">Secure transport for all goods, from everyday items to temperature-sensitive products.</p>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                         <span class="freight-icon">
                             <svg width="28" height="28"><use xlink:href="#ware-housing-icon"></use></svg> 
                         </span>
-                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Dedicated Freight Management Programs </a></h5>
+                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="javascript:void(0)" class="text-decoration-none link-hover-animation-1">Dedicated Freight Management Programs </a></h5>
                         <p class="mb-0  service-3-text">Customized logistics solutions, providing dedicated resources for your unique shipping needs.</p>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                         <span class="freight-icon">
                             <svg width="26" height="28"><use xlink:href="#rail-freight-icon"></use></svg> 
                         </span>
-                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Route Optimization & Load Planning</a></h5>
+                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="javascript:void(0)" class="text-decoration-none link-hover-animation-1">Route Optimization & Load Planning</a></h5>
                         <p class="mb-0  service-3-text">Smart planning for efficient routes and load configurations, reducing costs and transit times.</p>
                     </div>
                 </div>
@@ -103,7 +103,7 @@
                         <span class="freight-icon">
                             <svg width="32" height="28"><use xlink:href="#supply-chain-icon"></use></svg> 
                         </span>
-                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Freight Consolidation & Distribution</a></h5>
+                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="javascript:void(0)" class="text-decoration-none link-hover-animation-1">Freight Consolidation & Distribution</a></h5>
                         <p class="mb-0  service-3-text">Combining shipments for cost-effective transport, then distributing to final destinations efficiently.</p>
                     </div>
                 </div>
@@ -113,7 +113,7 @@
                         <span class="freight-icon">
                             <svg width="28" height="28"><use xlink:href="#ware-housing-icon"></use></svg> 
                         </span>
-                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Cross-Border Logistics (Canada – U.S.) </a></h5>
+                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="javascript:void(0)" class="text-decoration-none link-hover-animation-1">Cross-Border Logistics (Canada – U.S.) </a></h5>
                         <p class="mb-0  service-3-text">Seamless transport across borders, handling customs and regulations for smooth delivery.</p>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
                         <span class="freight-icon">
                             <svg width="29" height="28"><use xlink:href="#ocean-freight-icon"></use></svg> 
                         </span>
-                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="{{ route('services') }}" class="text-decoration-none link-hover-animation-1">Expedited & Time-Critical Shipments</a></h5>
+                        <h5 class="mb-0 service-3-title" style="display:block;"><a href="javascript:void(0)" class="text-decoration-none link-hover-animation-1">Expedited & Time-Critical Shipments</a></h5>
                         <p class="mb-0  service-3-text">Fast, reliable delivery for urgent shipments, ensuring deadlines are met every time.</p>
                     </div>
                 </div>

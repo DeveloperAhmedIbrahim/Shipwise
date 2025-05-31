@@ -45,9 +45,17 @@
 			<header class="section-header header-1 sticky-navbar">				
 				<nav class="navbar logistics-navbar navbar-expand-xl navbar-light hover-menu">	
 					<div class="container">										
-						<a class="navbar-brand py-2 py-xl-0" href="index-2.html">
+						<a class="navbar-brand py-2 py-xl-0" href="{{ route('home') }}">
+						<div class="d-flex justify-content-center align-items-center gap-2">
+							<div>
+								<img src="{{ asset('assets/images/fav-icon/favicon.png') }}" alt="logo-dark" width="60" height="auto">
+							</div>
+							<div class="d-flex justify-content-center align-items-start flex-column">
+								<h5 class="m-0 p-0 pt-2">SHIPWISE</h2>							
+								<p class="m-0 p-0" style="font-size: 18px">Smart logistics for smarter business</p>
+							</div>
+						</div>
 						<span class="logo">
-							<img src="{{ asset('assets/images/logo.png') }}" alt="logo-dark" width="125" height="auto">							
 						</span>						
 						</a>
 						<a href="#" class="logistics-toggler-icon text-decoration-none d-block d-xl-none" data-bs-toggle="offcanvas" data-bs-target="#logisticsNavbar" aria-controls="logisticsNavbar" aria-label="Toggle navigation">
@@ -202,7 +210,7 @@
 												<span class="contact-icon phone-icon">											
 													<svg width="20" height="20"><use xlink:href="#phone-icon"></use></svg> 
 												</span>
-												<p class="mb-0"><a href="tel:(+0123)234556789" class="text-decoration-none link-hover-animation-2">905-283-3652 <br> 437-353-8433 </a></p>
+												<p class="mb-0"><a href="tel:+14373538433" class="text-decoration-none link-hover-animation-2">+1437-353-8433<br>+1905-283-3652</a></p>
 											</li>
 											<li class="d-flex gap-3 align-items-start">
 												<span class="contact-icon location-icon">											

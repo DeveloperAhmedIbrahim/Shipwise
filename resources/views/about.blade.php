@@ -37,7 +37,7 @@
                         <div class="d-flex flex-column gap-30">
                             <ul class="about-experience list-unstyled d-flex align-items-center justify-content-center gap-10 border-10 shadow mb-0">
                                 <li>
-                                    <h2 class="display-3 fw-bold text-primary mb-0">25</h2>												
+                                    <h2 class="display-3 fw-bold text-primary mb-0">15</h2>												
                                 </li>
                                 <li>
                                     <h4 class="display-6 fw-bold lh-1 mb-0">Years Of Experience</h4>

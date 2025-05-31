@@ -67,7 +67,7 @@
                         </span>
                         <span class="d-flex flex-column gap-2">
                             <span class="contact-title fs-5 fw-semibold">Send Message</span>
-                            <span><a href="tel:(+0123)234556789" class="text-decoration-none link-hover-animation-2">(+0123) 2345 56789</a></span>
+                            <span><a href="tel:+14373538433" class="text-decoration-none link-hover-animation-2">+1437-353-8433</a></span>
                         </span>									
                     </li>											
                 </ul>
