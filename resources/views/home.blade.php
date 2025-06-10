@@ -24,7 +24,7 @@
     style="object-fit: cover; min-height: 600px;"
   >
     <source src="{{ asset('assets/videos/SHIPWISE-INTRO-VIDEO.mp4') }}" type="video/mp4">
-    <img src="{{ asset('assets/images/about-image-2.jpg') }}" alt="Hero fallback" class="w-100 h-auto">
+    <img src="{{ asset('assets/images/about-image-2.jpg') }}" alt="Hero fallback" class="w-100 h-auto" alt="Shipwise About Image">
   </video>
 
   <!-- Your existing overlay content -->
@@ -40,7 +40,7 @@
                 <div class="row gy-30">
                     <div class="col-md-6">
                         <div class="about-image-1 border-10 wow fadeInUp">
-                            <img src="{{ asset('assets/images/image-02.jpg') }}" class="img-fluid" alt="about-image-6">
+                            <img src="{{ asset('assets/images/image-02.jpg') }}" class="img-fluid" alt="Shipwise About Image">
                         </div>									
                         <!-- about-image-1 -->
                     </div>
@@ -56,7 +56,7 @@
                                 </li>											
                             </ul>
                             <div class="about-image-2 border-10 wow fadeInUp">
-                                <img src="{{ asset('assets/images/about-image-2.jpg') }}" class="img-fluid" alt="about-image-1">
+                                <img src="{{ asset('assets/images/about-image-2.jpg') }}" class="img-fluid" alt="Shipwise About Image">
                             </div>	
                             <!-- about-image-1 -->									
                         </div>
@@ -181,10 +181,10 @@
                 <div class="col-lg-5 col-xxl-6">
                     <div class="support-image-wrapper position-relative">
                         <div class="support-inner-image-1 border-10 wow fadeInRight" data-wow-delay="150ms" data-wow-duration="1.4s">
-                            <img src="{{ asset('assets/images/support-image.jpg') }}" class="img-fluid" alt="support-image">										
+                            <img src="{{ asset('assets/images/support-image.jpg') }}" class="img-fluid" alt="Shipwise Support Image">										
                         </div>	
                         <div class="support-inner-image-2 wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1.6s">
-                            <img src="{{ asset('assets/images/support-image-3.jpg') }}" class="img-fluid" alt="support-image-3">										
+                            <img src="{{ asset('assets/images/support-image-3.jpg') }}" class="img-fluid" alt="Shipwise Support Image">										
                         </div>								
                     </div>
                 </div>
@@ -215,7 +215,7 @@
                             <div class="row gx-30 align-items-center">
                                 <div class="col-lg-12 col-xxl-5">
                                 <div class="card-image-wrapper border-10">
-                                    <img src="{{ asset('assets/images/service-image-1.jpg') }}" class="img-fluid card-image" alt="service-image-1">
+                                    <img src="{{ asset('assets/images/service-image-1.jpg') }}" class="img-fluid card-image" alt="Shipwise Service Image">
                                 </div>
                                 <!-- card-image-wrapper -->
                                 </div>
@@ -234,7 +234,7 @@
                             <div class="row gx-30 align-items-center">
                                 <div class="col-lg-12 col-xxl-5">
                                 <div class="card-image-wrapper border-10">
-                                    <img src="{{ asset('assets/images/service-image-4.jpg') }}" class="img-fluid card-image" alt="service-image-2">
+                                    <img src="{{ asset('assets/images/service-image-4.jpg') }}" class="img-fluid card-image" alt="Shipwise Service Image">
                                 </div>
                                 <!-- card-image-wrapper -->
                                 </div>
@@ -253,7 +253,7 @@
                             <div class="row gx-30 align-items-center">
                                 <div class="col-lg-12 col-xxl-5">
                                 <div class="card-image-wrapper border-10">
-                                    <img src="{{ asset('assets/images/image-05.jpg') }}" class="img-fluid card-image" alt="service-image-2">
+                                    <img src="{{ asset('assets/images/image-05.jpg') }}" class="img-fluid card-image" alt="Shipwise Service Image">
                                 </div>
                                 <!-- card-image-wrapper -->
                                 </div>
@@ -272,7 +272,7 @@
                             <div class="row gx-30 align-items-center">
                                 <div class="col-lg-12 col-xxl-5">
                                 <div class="card-image-wrapper border-10">
-                                    <img src="{{ asset('assets/images/service-image-3.jpg') }}" class="img-fluid card-image" alt="service-image-2">
+                                    <img src="{{ asset('assets/images/service-image-3.jpg') }}" class="img-fluid card-image" alt="Shipwise Service Image">
                                 </div>
                                 <!-- card-image-wrapper -->
                                 </div>
@@ -291,7 +291,7 @@
                             <div class="row gx-30 align-items-center">
                                 <div class="col-lg-12 col-xxl-5">
                                 <div class="card-image-wrapper border-10">
-                                    <img src="{{ asset('assets/images/service-image-5.jpg') }}" class="img-fluid card-image" alt="service-image-2">
+                                    <img src="{{ asset('assets/images/service-image-5.jpg') }}" class="img-fluid card-image" alt="Shipwise Service Image">
                                 </div>
                                 <!-- card-image-wrapper -->
                                 </div>
@@ -310,7 +310,7 @@
                             <div class="row gx-30 align-items-center">
                                 <div class="col-lg-12 col-xxl-5">
                                 <div class="card-image-wrapper border-10">
-                                    <img src="{{ asset('assets/images/service-image-8.jpg') }}" class="img-fluid card-image" alt="service-image-2">
+                                    <img src="{{ asset('assets/images/service-image-8.jpg') }}" class="img-fluid card-image" alt="Shipwise Service Image">
                                 </div>
                                 <!-- card-image-wrapper -->
                                 </div>
@@ -329,7 +329,7 @@
                             <div class="row gx-30 align-items-center">
                                 <div class="col-lg-12 col-xxl-5">
                                 <div class="card-image-wrapper border-10">
-                                    <img src="{{ asset('assets/images/service-image-2.jpg') }}" class="img-fluid card-image" alt="service-image-2">
+                                    <img src="{{ asset('assets/images/service-image-2.jpg') }}" class="img-fluid card-image" alt="Shipwise Service Image">
                                 </div>
                                 <!-- card-image-wrapper -->
                                 </div>
@@ -402,7 +402,7 @@
                         <div class="testimonial-slide-container">
                             <div class="testimonial-author-image-wrapper">
                                 <div class="testimonial-author-image">
-                                    <img src="{{ asset('assets/images/testimonial-2.jpg') }}" class="img-fluid" alt="testimonial-2">
+                                    <img src="{{ asset('assets/images/testimonial-2.jpg') }}" class="img-fluid" alt="Shipwise Testimonial Image">
                                 </div>															
                             </div>
                         </div>
@@ -411,7 +411,7 @@
                         <div class="testimonial-slide-container">
                             <div class="testimonial-author-image-wrapper">
                                 <div class="testimonial-author-image">
-                                    <img src="{{ asset('assets/images/testimonial-1.jpg') }}" class="img-fluid" alt="testimonial-1">
+                                    <img src="{{ asset('assets/images/testimonial-1.jpg') }}" class="img-fluid" alt="Shipwise Testimonial Image">
                                 </div>															
                             </div>
                         </div>
@@ -420,7 +420,7 @@
                         <div class="testimonial-slide-container">
                             <div class="testimonial-author-image-wrapper">
                                 <div class="testimonial-author-image">
-                                    <img src="{{ asset('assets/images/testimonial-3.jpg') }}" class="img-fluid" alt="testimonial-3">
+                                    <img src="{{ asset('assets/images/testimonial-3.jpg') }}" class="img-fluid" alt="Shipwise Testimonial Image">
                                 </div>															
                             </div>
                         </div>
@@ -576,7 +576,7 @@
             <div class="row align-items-center gx-20 gx-xl-60 gy-40 gy-lg-0">
                 <div class="col-lg-6">
                     <div class="faq-image overflow-hidden border-10">
-                        <img src="{{ asset('assets/images/image-04.jpg') }}" class="img-fluid" alt="section-image-1">									
+                        <img src="{{ asset('assets/images/image-04.jpg') }}" class="img-fluid" alt="Shipwise FAQ Image">									
                     </div>
                 </div>
                 <!-- col-5 -->

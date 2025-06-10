@@ -28,7 +28,7 @@
                 <div class="row gy-30">
                     <div class="col-md-6">
                         <div class="about-image-1 border-10 wow fadeInUp">
-                            <img src="{{ asset('assets/images/image-02.jpg') }}" class="img-fluid" alt="about-image-6">
+                            <img src="{{ asset('assets/images/image-02.jpg') }}" class="img-fluid" alt="Shipwise About Image">
                         </div>									
                         <!-- about-image-1 -->
                     </div>
@@ -44,7 +44,7 @@
                                 </li>											
                             </ul>
                             <div class="about-image-2 border-10 wow fadeInUp">
-                                <img src="{{ asset('assets/images/about-image-2.jpg') }}" class="img-fluid" alt="about-image-1">
+                                <img src="{{ asset('assets/images/about-image-2.jpg') }}" class="img-fluid" alt="Shipwise About Image">
                             </div>	
                             <!-- about-image-1 -->									
                         </div>
@@ -126,12 +126,12 @@
                                     <h4 class="mb-0 text-black">Providing <b>BEST</b> Freight Service!</h4>
                                 </div>
                             </div>
-                            <img src="{{ asset('assets/images/image-12.jpg') }}"  class="img-fluid">
+                            <img src="{{ asset('assets/images/image-12.jpg') }}"  alt="Shipwise About Image">
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 d-flex justify-content-center align-items-center flex-column gap-20 pt-5">
-                    <img src="{{ asset('assets/images/logo.png') }}" alt="">
+                    <img src="{{ asset('assets/images/logo.png') }}" alt="Shipwise Logo">
                     <h5 class="text-primary">YOUR TRUSTED FREIGHT PARTNER!</h2>
                     <p class="mb-0 text-center" style="font-size: 24px;">At SHIPWISE Freight Inc, “Smart logistics for smarter business” is more than just a slogan—it’s our philosophy.</p>
                     <p>We believe that intelligent, technology-driven logistics are the backbone of modern business success. By leveraging advanced tools, data-driven insights, and industry expertise, we help companies streamline their supply chains, reduce costs, and improve delivery performance.</p>

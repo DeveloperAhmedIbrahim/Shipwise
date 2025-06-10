@@ -10,7 +10,9 @@
 		
 		<meta name="title" content="SHIPWISE - @yield('title')">
 		<meta name="description" content="Shipwise Freight Inc. We don’t just move freight — we engineer smarter, faster, and more dependable transportation solutions that empower your supply chain.">
+        <meta name="keywords" content="shipwise, shipwise freight, shipwise freight inc, freight service, freight company, logistics company, international shipping, domestic freight, shipping services, cargo transport, freight logistics, global shipping solutions, shipping company, freight forwarding services, supply chain solutions, ocean freight, ground shipping, trucking services, logistics and transportation">
 
+        
 		<!-- Open Graph / Facebook / WhatsApp -->
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="{{ url('/') }}/">
@@ -48,21 +50,21 @@
 						<a class="navbar-brand py-2 py-xl-0" href="{{ route('home') }}">
 						<div class="d-flex justify-content-center align-items-center gap-2">
 							<div>
-								<img src="{{ asset('assets/images/fav-icon/favicon.png') }}" alt="logo-dark" width="60" height="auto">
+								<img src="{{ asset('assets/images/fav-icon/favicon.png') }}" alt="logo-dark" width="60" height="auto" alt="Shipwise Logo">
 							</div>
 							<div class="d-flex justify-content-center align-items-start flex-column">
 								<h5 class="m-0 p-0 pt-2">SHIPWISE</h2>							
-								<p class="m-0 p-0" style="font-size: 18px">Smart logistics for smarter business</p>
+								<p class="m-0 p-0" style="font-size: 15px">Smart logistics for smarter business</p>
 							</div>
 						</div>
 						<span class="logo">
 						</span>						
 						</a>
 						<a href="#" class="logistics-toggler-icon text-decoration-none d-block d-xl-none" data-bs-toggle="offcanvas" data-bs-target="#logisticsNavbar" aria-controls="logisticsNavbar" aria-label="Toggle navigation">
-							<svg width="40" height="23" viewBox="0 0 40 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<line x1="1.5" y1="1.5" x2="38.5" y2="1.5" stroke-width="3" stroke-linecap="round"/>
 								<line x1="1.5" y1="11.5" x2="38.5" y2="11.5" stroke-width="3" stroke-linecap="round"/>
-								<line x1="21.5" y1="21.5" x2="38.5" y2="21.5" stroke-width="3" stroke-linecap="round"/>
+								<line x1="10.5" y1="21.5" x2="38.5" y2="21.5" stroke-width="3" stroke-linecap="round"/>
 							</svg> 
 						</a>
 						<div class="collapse navbar-collapse">	
@@ -105,7 +107,7 @@
 					<div class="offcanvas-header">
 						<span class="offcanvas-title" id="logisticsNavbarLabel">
 							<span class="logo">
-								<img src="{{ asset('assets/images/logo.png') }}" alt="logo-dark">	
+								<img src="{{ asset('assets/images/logo.png') }}" alt="logo-dark" width="60" alt="Shipwise Logo">	
 							</span>
 						</span>
 						<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -154,7 +156,7 @@
 								<div class="logo-footer mb-20 mb-xl-30">
 									<a class="navbar-brand py-0" href="index-2.html">
 										<span class="logo">
-											<img src="assets/images/logo.jpg" class="img-fluid rounded-2" alt="logo-white" >							
+											<img src="assets/images/logo.jpg" class="img-fluid rounded-2" alt="logo-white" alt="Shipwise Logo">							
 										</span>						
 									</a>
 								</div>

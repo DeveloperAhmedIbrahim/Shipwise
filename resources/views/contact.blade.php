@@ -129,7 +129,7 @@
             <div class="row align-items-center gx-20 gx-xl-60 gy-40 gy-lg-0">
                 <div class="col-lg-6">
                     <div class="faq-image overflow-hidden border-10">
-                        <img src="{{ asset('assets/images/image-04.jpg') }}" class="img-fluid" alt="section-image-1">									
+                        <img src="{{ asset('assets/images/image-04.jpg') }}" class="img-fluid" alt="Shipwise Contact Image">									
                     </div>
                 </div>
                 <!-- col-5 -->

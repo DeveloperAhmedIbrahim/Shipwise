@@ -29,7 +29,7 @@
         </div>
         <!-- text-lg-center -->
         <div class="service-inner-image video-image-wrapper position-relative border-10 wow fadeInUp">
-            <img src="{{ asset('assets/images/image-13.png') }}" class="img-fluid" alt="service-video-image">
+            <img src="{{ asset('assets/images/image-13.png') }}" class="img-fluid" alt="Shipwise Intro Video">
             <a href="{{ asset('assets/videos/SHIPWISE-INTRO-VIDEO.mp4') }}" aria-label="video-popus-icon" class="video-popup video-popup-style-1">
                 <span class="video-icon">						
                     <svg width="24" height="30"><use xlink:href="#video-icon"></use></svg> 
@@ -173,7 +173,7 @@
             <div class="row align-items-center gx-20 gx-xl-60 gy-40 gy-lg-0">
                 <div class="col-lg-6">
                     <div class="faq-image overflow-hidden border-10">
-                        <img src="{{ asset('assets/images/image-04.jpg') }}" class="img-fluid" alt="section-image-1">									
+                        <img src="{{ asset('assets/images/image-04.jpg') }}" class="img-fluid" alt="Shipwise FAQ Image">									
                     </div>
                 </div>
                 <!-- col-5 -->
